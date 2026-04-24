@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Animal Crossing: New Horizons — Quiz</title>
+    <link rel="stylesheet" href="./quiz.css" />
+  </head>
+  <body>
+    <header>
+      <div class="topbar">
+        <button class="titleBtn" id="homeBtn" type="button" aria-label="Back to menu">
+          <span class="titleText">Animal Crossing: New Horizons — Quiz</span>
+        </button>
+        <div class="status" id="status"></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel" data-view="home" style="display: none">
+        <div class="hero">
+          <div>
+            <h1>Villager quiz</h1>
+            <p>
+              <b>Daily Challenge</b> is today’s fixed challenge.
+              <b>Free Run</b> is the same idea, but randomized.
+              <b>Gender Run</b> is a gender-only run.
+            </p>
+          </div>
+
+          <div class="btnRow">
+            <button class="primaryBtn" id="dailyBtn" type="button">
+              <div class="primaryBtnTop">
+                <div class="playIcon" aria-hidden="true">▶</div>
+                <div>
+                  <strong>Daily Challenge</strong>
+                </div>
+              </div>
+            </button>
+
+            <div class="smallBtnRow">
+              <button class="miniPlayBtn" id="runBtn" type="button">
+                <div class="miniIcon" aria-hidden="true">▶</div>
+                <div class="label">Free Run</div>
+              </button>
+              <button class="miniPlayBtn" id="genderBtn" type="button">
+                <div class="miniIcon" aria-hidden="true">▶</div>
+                <div class="label">Gender Run</div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" data-view="quiz" style="display: none">
+        <div class="qTop">
+          <div class="qCount" id="qCount">—</div>
+        </div>
+
+        <div class="quizCard" id="quizCard">
+          <div class="media" id="qMedia">
+            <img class="qImg" id="qImg" alt="" draggable="false" />
+          </div>
+
+          <div class="qPrompt" id="qPrompt">—</div>
+          <div class="qMeta" id="qMeta" style="display: none"></div>
+
+          <div class="options" id="qOptions"></div>
+        </div>
+      </section>
+
+      <section class="panel end" data-view="end" style="display: none">
+        <h2 id="endTitle">Result</h2>
+        <div class="big" id="endCorrect">—</div>
+        <div class="muted" id="endPoints">—</div>
+        <div class="muted" style="margin-top: 6px">
+          <b id="endRank">—</b>
+        </div>
+        <div class="muted" id="endBlurb" style="margin-top: 6px">—</div>
+        <div style="margin-top: 14px">
+          <button class="smallBtn" id="playAgain" type="button">Back to menu</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="./quiz.js"></script>
+  </body>
+</html>

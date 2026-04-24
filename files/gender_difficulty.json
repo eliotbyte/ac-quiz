@@ -1,0 +1,1656 @@
+{
+  "difficulty": [
+    {
+      "name": "Ace",
+      "score": 1
+    },
+    {
+      "name": "Admiral",
+      "score": 1
+    },
+    {
+      "name": "Agent S",
+      "score": 3
+    },
+    {
+      "name": "Agnes",
+      "score": 1
+    },
+    {
+      "name": "Al",
+      "score": 1
+    },
+    {
+      "name": "Alfonso",
+      "score": 1
+    },
+    {
+      "name": "Alice",
+      "score": 1
+    },
+    {
+      "name": "Alli",
+      "score": 2
+    },
+    {
+      "name": "Amelia",
+      "score": 1
+    },
+    {
+      "name": "Anabelle",
+      "score": 1
+    },
+    {
+      "name": "Anchovy",
+      "score": 1
+    },
+    {
+      "name": "Angus",
+      "score": 3
+    },
+    {
+      "name": "Anicotti",
+      "score": 1
+    },
+    {
+      "name": "Ankha",
+      "score": 1
+    },
+    {
+      "name": "Annalisa",
+      "score": 1
+    },
+    {
+      "name": "Annalise",
+      "score": 1
+    },
+    {
+      "name": "Antonio",
+      "score": 1
+    },
+    {
+      "name": "Apollo",
+      "score": 1
+    },
+    {
+      "name": "Apple",
+      "score": 2
+    },
+    {
+      "name": "Astrid",
+      "score": 2
+    },
+    {
+      "name": "Audie",
+      "score": 1
+    },
+    {
+      "name": "Aurora",
+      "score": 3
+    },
+    {
+      "name": "Ava",
+      "score": 1
+    },
+    {
+      "name": "Avery",
+      "score": 2
+    },
+    {
+      "name": "Axel",
+      "score": 1
+    },
+    {
+      "name": "Azalea",
+      "score": 1
+    },
+    {
+      "name": "Baabara",
+      "score": 1
+    },
+    {
+      "name": "Bam",
+      "score": 1
+    },
+    {
+      "name": "Bangle",
+      "score": 1
+    },
+    {
+      "name": "Barold",
+      "score": 1
+    },
+    {
+      "name": "Bea",
+      "score": 2
+    },
+    {
+      "name": "Beardo",
+      "score": 1
+    },
+    {
+      "name": "Beau",
+      "score": 1
+    },
+    {
+      "name": "Becky",
+      "score": 1
+    },
+    {
+      "name": "Bella",
+      "score": 1
+    },
+    {
+      "name": "Benedict",
+      "score": 1
+    },
+    {
+      "name": "Benjamin",
+      "score": 1
+    },
+    {
+      "name": "Bertha",
+      "score": 1
+    },
+    {
+      "name": "Bettina",
+      "score": 2
+    },
+    {
+      "name": "Bianca",
+      "score": 1
+    },
+    {
+      "name": "Biff",
+      "score": 1
+    },
+    {
+      "name": "Big Top",
+      "score": 2
+    },
+    {
+      "name": "Bill",
+      "score": 1
+    },
+    {
+      "name": "Billy",
+      "score": 1
+    },
+    {
+      "name": "Biskit",
+      "score": 1
+    },
+    {
+      "name": "Bitty",
+      "score": 1
+    },
+    {
+      "name": "Blaire",
+      "score": 1
+    },
+    {
+      "name": "Blanche",
+      "score": 1
+    },
+    {
+      "name": "Bluebear",
+      "score": 3
+    },
+    {
+      "name": "Bob",
+      "score": 2
+    },
+    {
+      "name": "Bonbon",
+      "score": 1
+    },
+    {
+      "name": "Bones",
+      "score": 2
+    },
+    {
+      "name": "Boomer",
+      "score": 1
+    },
+    {
+      "name": "Boone",
+      "score": 1
+    },
+    {
+      "name": "Boots",
+      "score": 2
+    },
+    {
+      "name": "Boris",
+      "score": 1
+    },
+    {
+      "name": "Boyd",
+      "score": 1
+    },
+    {
+      "name": "Bree",
+      "score": 1
+    },
+    {
+      "name": "Broccolo",
+      "score": 1
+    },
+    {
+      "name": "Broffina",
+      "score": 1
+    },
+    {
+      "name": "Bruce",
+      "score": 1
+    },
+    {
+      "name": "Bubbles",
+      "score": 2
+    },
+    {
+      "name": "Buck",
+      "score": 1
+    },
+    {
+      "name": "Bud",
+      "score": 1
+    },
+    {
+      "name": "Bunnie",
+      "score": 1
+    },
+    {
+      "name": "Butch",
+      "score": 2
+    },
+    {
+      "name": "Buzz",
+      "score": 1
+    },
+    {
+      "name": "Cally",
+      "score": 1
+    },
+    {
+      "name": "Camofrog",
+      "score": 1
+    },
+    {
+      "name": "Canberra",
+      "score": 3
+    },
+    {
+      "name": "Candi",
+      "score": 1
+    },
+    {
+      "name": "Carmen",
+      "score": 2
+    },
+    {
+      "name": "Caroline",
+      "score": 1
+    },
+    {
+      "name": "Carrie",
+      "score": 1
+    },
+    {
+      "name": "Cashmere",
+      "score": 1
+    },
+    {
+      "name": "Celia",
+      "score": 1
+    },
+    {
+      "name": "Cephalobot",
+      "score": 3
+    },
+    {
+      "name": "Cesar",
+      "score": 1
+    },
+    {
+      "name": "Chabwick",
+      "score": 1
+    },
+    {
+      "name": "Chadder",
+      "score": 1
+    },
+    {
+      "name": "Chai",
+      "score": 1
+    },
+    {
+      "name": "Charlise",
+      "score": 1
+    },
+    {
+      "name": "Chelsea",
+      "score": 2
+    },
+    {
+      "name": "Cheri",
+      "score": 1
+    },
+    {
+      "name": "Cherry",
+      "score": 1
+    },
+    {
+      "name": "Chester",
+      "score": 1
+    },
+    {
+      "name": "Chevre",
+      "score": 1
+    },
+    {
+      "name": "Chief",
+      "score": 3
+    },
+    {
+      "name": "Chops",
+      "score": 1
+    },
+    {
+      "name": "Chow",
+      "score": 1
+    },
+    {
+      "name": "Chrissy",
+      "score": 1
+    },
+    {
+      "name": "Claude",
+      "score": 1
+    },
+    {
+      "name": "Claudia",
+      "score": 1
+    },
+    {
+      "name": "Clay",
+      "score": 1
+    },
+    {
+      "name": "Cleo",
+      "score": 1
+    },
+    {
+      "name": "Clyde",
+      "score": 1
+    },
+    {
+      "name": "Coach",
+      "score": 1
+    },
+    {
+      "name": "Cobb",
+      "score": 1
+    },
+    {
+      "name": "Coco",
+      "score": 3
+    },
+    {
+      "name": "Cole",
+      "score": 2
+    },
+    {
+      "name": "Colton",
+      "score": 2
+    },
+    {
+      "name": "Cookie",
+      "score": 1
+    },
+    {
+      "name": "Cousteau",
+      "score": 1
+    },
+    {
+      "name": "Cranston",
+      "score": 2
+    },
+    {
+      "name": "Croque",
+      "score": 1
+    },
+    {
+      "name": "Cube",
+      "score": 2
+    },
+    {
+      "name": "Curlos",
+      "score": 1
+    },
+    {
+      "name": "Curly",
+      "score": 1
+    },
+    {
+      "name": "Curt",
+      "score": 1
+    },
+    {
+      "name": "Cyd",
+      "score": 1
+    },
+    {
+      "name": "Cyrano",
+      "score": 1
+    },
+    {
+      "name": "Daisy",
+      "score": 3
+    },
+    {
+      "name": "Deena",
+      "score": 2
+    },
+    {
+      "name": "Deirdre",
+      "score": 3
+    },
+    {
+      "name": "Del",
+      "score": 2
+    },
+    {
+      "name": "Deli",
+      "score": 1
+    },
+    {
+      "name": "Derwin",
+      "score": 1
+    },
+    {
+      "name": "Diana",
+      "score": 1
+    },
+    {
+      "name": "Diva",
+      "score": 1
+    },
+    {
+      "name": "Dizzy",
+      "score": 1
+    },
+    {
+      "name": "Dobie",
+      "score": 1
+    },
+    {
+      "name": "Doc",
+      "score": 1
+    },
+    {
+      "name": "Dom",
+      "score": 3
+    },
+    {
+      "name": "Dora",
+      "score": 3
+    },
+    {
+      "name": "Dotty",
+      "score": 2
+    },
+    {
+      "name": "Drago",
+      "score": 2
+    },
+    {
+      "name": "Drake",
+      "score": 1
+    },
+    {
+      "name": "Drift",
+      "score": 2
+    },
+    {
+      "name": "Ed",
+      "score": 1
+    },
+    {
+      "name": "Egbert",
+      "score": 2
+    },
+    {
+      "name": "Elise",
+      "score": 1
+    },
+    {
+      "name": "Ellie",
+      "score": 1
+    },
+    {
+      "name": "Elmer",
+      "score": 2
+    },
+    {
+      "name": "Eloise",
+      "score": 1
+    },
+    {
+      "name": "Elvis",
+      "score": 1
+    },
+    {
+      "name": "Erik",
+      "score": 1
+    },
+    {
+      "name": "Étoile",
+      "score": 1
+    },
+    {
+      "name": "Eugene",
+      "score": 1
+    },
+    {
+      "name": "Eunice",
+      "score": 2
+    },
+    {
+      "name": "Faith",
+      "score": 1
+    },
+    {
+      "name": "Fang",
+      "score": 3
+    },
+    {
+      "name": "Fauna",
+      "score": 1
+    },
+    {
+      "name": "Felicity",
+      "score": 1
+    },
+    {
+      "name": "Filbert",
+      "score": 2
+    },
+    {
+      "name": "Flip",
+      "score": 1
+    },
+    {
+      "name": "Flo",
+      "score": 1
+    },
+    {
+      "name": "Flora",
+      "score": 3
+    },
+    {
+      "name": "Flurry",
+      "score": 1
+    },
+    {
+      "name": "Francine",
+      "score": 1
+    },
+    {
+      "name": "Frank",
+      "score": 2
+    },
+    {
+      "name": "Freckles",
+      "score": 3
+    },
+    {
+      "name": "Frett",
+      "score": 1
+    },
+    {
+      "name": "Freya",
+      "score": 1
+    },
+    {
+      "name": "Friga",
+      "score": 1
+    },
+    {
+      "name": "Frita",
+      "score": 2
+    },
+    {
+      "name": "Frobert",
+      "score": 1
+    },
+    {
+      "name": "Fuchsia",
+      "score": 1
+    },
+    {
+      "name": "Gabi",
+      "score": 3
+    },
+    {
+      "name": "Gala",
+      "score": 1
+    },
+    {
+      "name": "Gaston",
+      "score": 1
+    },
+    {
+      "name": "Gayle",
+      "score": 1
+    },
+    {
+      "name": "Genji",
+      "score": 2
+    },
+    {
+      "name": "Gigi",
+      "score": 1
+    },
+    {
+      "name": "Gladys",
+      "score": 1
+    },
+    {
+      "name": "Gloria",
+      "score": 1
+    },
+    {
+      "name": "Goldie",
+      "score": 2
+    },
+    {
+      "name": "Gonzo",
+      "score": 1
+    },
+    {
+      "name": "Goose",
+      "score": 1
+    },
+    {
+      "name": "Graham",
+      "score": 1
+    },
+    {
+      "name": "Greta",
+      "score": 2
+    },
+    {
+      "name": "Grizzly",
+      "score": 1
+    },
+    {
+      "name": "Groucho",
+      "score": 1
+    },
+    {
+      "name": "Gruff",
+      "score": 2
+    },
+    {
+      "name": "Gwen",
+      "score": 1
+    },
+    {
+      "name": "Hamlet",
+      "score": 1
+    },
+    {
+      "name": "Hamphrey",
+      "score": 1
+    },
+    {
+      "name": "Hans",
+      "score": 1
+    },
+    {
+      "name": "Harry",
+      "score": 1
+    },
+    {
+      "name": "Hazel",
+      "score": 1
+    },
+    {
+      "name": "Henry",
+      "score": 1
+    },
+    {
+      "name": "Hippeux",
+      "score": 1
+    },
+    {
+      "name": "Hopkins",
+      "score": 1
+    },
+    {
+      "name": "Hopper",
+      "score": 1
+    },
+    {
+      "name": "Hornsby",
+      "score": 1
+    },
+    {
+      "name": "Huck",
+      "score": 1
+    },
+    {
+      "name": "Hugh",
+      "score": 1
+    },
+    {
+      "name": "Iggly",
+      "score": 1
+    },
+    {
+      "name": "Ike",
+      "score": 1
+    },
+    {
+      "name": "Ione",
+      "score": 3
+    },
+    {
+      "name": "Jacob",
+      "score": 1
+    },
+    {
+      "name": "Jacques",
+      "score": 1
+    },
+    {
+      "name": "Jambette",
+      "score": 1
+    },
+    {
+      "name": "Jay",
+      "score": 1
+    },
+    {
+      "name": "Jeremiah",
+      "score": 1
+    },
+    {
+      "name": "Jitters",
+      "score": 1
+    },
+    {
+      "name": "Joey",
+      "score": 1
+    },
+    {
+      "name": "Judy",
+      "score": 1
+    },
+    {
+      "name": "Julia",
+      "score": 1
+    },
+    {
+      "name": "Julian",
+      "score": 3
+    },
+    {
+      "name": "June",
+      "score": 1
+    },
+    {
+      "name": "Kabuki",
+      "score": 3
+    },
+    {
+      "name": "Katt",
+      "score": 2
+    },
+    {
+      "name": "Keaton",
+      "score": 2
+    },
+    {
+      "name": "Ken",
+      "score": 1
+    },
+    {
+      "name": "Ketchup",
+      "score": 1
+    },
+    {
+      "name": "Kevin",
+      "score": 1
+    },
+    {
+      "name": "Kid Cat",
+      "score": 2
+    },
+    {
+      "name": "Kidd",
+      "score": 1
+    },
+    {
+      "name": "Kiki",
+      "score": 3
+    },
+    {
+      "name": "Kitt",
+      "score": 2
+    },
+    {
+      "name": "Kitty",
+      "score": 1
+    },
+    {
+      "name": "Klaus",
+      "score": 1
+    },
+    {
+      "name": "Knox",
+      "score": 2
+    },
+    {
+      "name": "Kody",
+      "score": 1
+    },
+    {
+      "name": "Kyle",
+      "score": 1
+    },
+    {
+      "name": "Leonardo",
+      "score": 1
+    },
+    {
+      "name": "Leopold",
+      "score": 1
+    },
+    {
+      "name": "Lily",
+      "score": 1
+    },
+    {
+      "name": "Limberg",
+      "score": 1
+    },
+    {
+      "name": "Lionel",
+      "score": 1
+    },
+    {
+      "name": "Lobo",
+      "score": 1
+    },
+    {
+      "name": "Lolly",
+      "score": 3
+    },
+    {
+      "name": "Lopez",
+      "score": 2
+    },
+    {
+      "name": "Louie",
+      "score": 1
+    },
+    {
+      "name": "Lucha",
+      "score": 1
+    },
+    {
+      "name": "Lucky",
+      "score": 3
+    },
+    {
+      "name": "Lucy",
+      "score": 1
+    },
+    {
+      "name": "Lyman",
+      "score": 1
+    },
+    {
+      "name": "Mac",
+      "score": 1
+    },
+    {
+      "name": "Maddie",
+      "score": 1
+    },
+    {
+      "name": "Maelle",
+      "score": 2
+    },
+    {
+      "name": "Maggie",
+      "score": 1
+    },
+    {
+      "name": "Mallary",
+      "score": 1
+    },
+    {
+      "name": "Maple",
+      "score": 1
+    },
+    {
+      "name": "Marcel",
+      "score": 1
+    },
+    {
+      "name": "Marcie",
+      "score": 1
+    },
+    {
+      "name": "Margie",
+      "score": 1
+    },
+    {
+      "name": "Marina",
+      "score": 1
+    },
+    {
+      "name": "Marlo",
+      "score": 1
+    },
+    {
+      "name": "Marshal",
+      "score": 1
+    },
+    {
+      "name": "Marty",
+      "score": 1
+    },
+    {
+      "name": "Mathilda",
+      "score": 2
+    },
+    {
+      "name": "Megan",
+      "score": 1
+    },
+    {
+      "name": "Melba",
+      "score": 2
+    },
+    {
+      "name": "Merengue",
+      "score": 1
+    },
+    {
+      "name": "Merry",
+      "score": 1
+    },
+    {
+      "name": "Midge",
+      "score": 1
+    },
+    {
+      "name": "Mint",
+      "score": 1
+    },
+    {
+      "name": "Mira",
+      "score": 1
+    },
+    {
+      "name": "Miranda",
+      "score": 1
+    },
+    {
+      "name": "Mitzi",
+      "score": 2
+    },
+    {
+      "name": "Moe",
+      "score": 2
+    },
+    {
+      "name": "Molly",
+      "score": 2
+    },
+    {
+      "name": "Monique",
+      "score": 1
+    },
+    {
+      "name": "Monty",
+      "score": 1
+    },
+    {
+      "name": "Moose",
+      "score": 1
+    },
+    {
+      "name": "Mott",
+      "score": 1
+    },
+    {
+      "name": "Muffy",
+      "score": 1
+    },
+    {
+      "name": "Murphy",
+      "score": 1
+    },
+    {
+      "name": "Nan",
+      "score": 1
+    },
+    {
+      "name": "Nana",
+      "score": 1
+    },
+    {
+      "name": "Naomi",
+      "score": 2
+    },
+    {
+      "name": "Nate",
+      "score": 1
+    },
+    {
+      "name": "Nibbles",
+      "score": 1
+    },
+    {
+      "name": "Norma",
+      "score": 1
+    },
+    {
+      "name": "Octavian",
+      "score": 1
+    },
+    {
+      "name": "O'Hare",
+      "score": 1
+    },
+    {
+      "name": "Olaf",
+      "score": 1
+    },
+    {
+      "name": "Olive",
+      "score": 2
+    },
+    {
+      "name": "Olivia",
+      "score": 1
+    },
+    {
+      "name": "Opal",
+      "score": 1
+    },
+    {
+      "name": "Ozzie",
+      "score": 1
+    },
+    {
+      "name": "Pancetti",
+      "score": 1
+    },
+    {
+      "name": "Pango",
+      "score": 1
+    },
+    {
+      "name": "Paolo",
+      "score": 1
+    },
+    {
+      "name": "Papi",
+      "score": 1
+    },
+    {
+      "name": "Pashmina",
+      "score": 1
+    },
+    {
+      "name": "Pate",
+      "score": 2
+    },
+    {
+      "name": "Patty",
+      "score": 1
+    },
+    {
+      "name": "Paula",
+      "score": 1
+    },
+    {
+      "name": "Peaches",
+      "score": 3
+    },
+    {
+      "name": "Peanut",
+      "score": 1
+    },
+    {
+      "name": "Pecan",
+      "score": 1
+    },
+    {
+      "name": "Peck",
+      "score": 1
+    },
+    {
+      "name": "Peewee",
+      "score": 1
+    },
+    {
+      "name": "Peggy",
+      "score": 1
+    },
+    {
+      "name": "Pekoe",
+      "score": 1
+    },
+    {
+      "name": "Penelope",
+      "score": 1
+    },
+    {
+      "name": "Petri",
+      "score": 3
+    },
+    {
+      "name": "Phil",
+      "score": 3
+    },
+    {
+      "name": "Phoebe",
+      "score": 2
+    },
+    {
+      "name": "Pierce",
+      "score": 1
+    },
+    {
+      "name": "Pietro",
+      "score": 2
+    },
+    {
+      "name": "Pinky",
+      "score": 1
+    },
+    {
+      "name": "Piper",
+      "score": 1
+    },
+    {
+      "name": "Pippy",
+      "score": 3
+    },
+    {
+      "name": "Plucky",
+      "score": 1
+    },
+    {
+      "name": "Pompom",
+      "score": 1
+    },
+    {
+      "name": "Poncho",
+      "score": 2
+    },
+    {
+      "name": "Poppy",
+      "score": 1
+    },
+    {
+      "name": "Portia",
+      "score": 1
+    },
+    {
+      "name": "Prince",
+      "score": 1
+    },
+    {
+      "name": "Puck",
+      "score": 1
+    },
+    {
+      "name": "Puddles",
+      "score": 1
+    },
+    {
+      "name": "Pudge",
+      "score": 1
+    },
+    {
+      "name": "Punchy",
+      "score": 1
+    },
+    {
+      "name": "Purrl",
+      "score": 2
+    },
+    {
+      "name": "Queenie",
+      "score": 2
+    },
+    {
+      "name": "Quillson",
+      "score": 1
+    },
+    {
+      "name": "Quinn",
+      "score": 3
+    },
+    {
+      "name": "Raddle",
+      "score": 1
+    },
+    {
+      "name": "Rasher",
+      "score": 1
+    },
+    {
+      "name": "Raymond",
+      "score": 1
+    },
+    {
+      "name": "Renée",
+      "score": 1
+    },
+    {
+      "name": "Reneigh",
+      "score": 1
+    },
+    {
+      "name": "Rex",
+      "score": 1
+    },
+    {
+      "name": "Rhonda",
+      "score": 1
+    },
+    {
+      "name": "Ribbot",
+      "score": 3
+    },
+    {
+      "name": "Ricky",
+      "score": 1
+    },
+    {
+      "name": "Rilla",
+      "score": 1
+    },
+    {
+      "name": "Rio",
+      "score": 1
+    },
+    {
+      "name": "Rizzo",
+      "score": 1
+    },
+    {
+      "name": "Roald",
+      "score": 1
+    },
+    {
+      "name": "Robin",
+      "score": 3
+    },
+    {
+      "name": "Rocco",
+      "score": 2
+    },
+    {
+      "name": "Rocket",
+      "score": 2
+    },
+    {
+      "name": "Rod",
+      "score": 2
+    },
+    {
+      "name": "Rodeo",
+      "score": 1
+    },
+    {
+      "name": "Rodney",
+      "score": 1
+    },
+    {
+      "name": "Rolf",
+      "score": 2
+    },
+    {
+      "name": "Rooney",
+      "score": 1
+    },
+    {
+      "name": "Rory",
+      "score": 1
+    },
+    {
+      "name": "Roscoe",
+      "score": 1
+    },
+    {
+      "name": "Rosie",
+      "score": 2
+    },
+    {
+      "name": "Roswell",
+      "score": 1
+    },
+    {
+      "name": "Rowan",
+      "score": 1
+    },
+    {
+      "name": "Ruby",
+      "score": 3
+    },
+    {
+      "name": "Rudy",
+      "score": 1
+    },
+    {
+      "name": "Sally",
+      "score": 3
+    },
+    {
+      "name": "Samson",
+      "score": 1
+    },
+    {
+      "name": "Sandy",
+      "score": 3
+    },
+    {
+      "name": "Sasha",
+      "score": 2
+    },
+    {
+      "name": "Savannah",
+      "score": 1
+    },
+    {
+      "name": "Scoot",
+      "score": 1
+    },
+    {
+      "name": "Shari",
+      "score": 1
+    },
+    {
+      "name": "Sheldon",
+      "score": 1
+    },
+    {
+      "name": "Shep",
+      "score": 1
+    },
+    {
+      "name": "Sherb",
+      "score": 1
+    },
+    {
+      "name": "Shino",
+      "score": 1
+    },
+    {
+      "name": "Simon",
+      "score": 1
+    },
+    {
+      "name": "Skye",
+      "score": 1
+    },
+    {
+      "name": "Sly",
+      "score": 1
+    },
+    {
+      "name": "Snake",
+      "score": 1
+    },
+    {
+      "name": "Snooty",
+      "score": 3
+    },
+    {
+      "name": "Soleil",
+      "score": 1
+    },
+    {
+      "name": "Sparro",
+      "score": 1
+    },
+    {
+      "name": "Spike",
+      "score": 1
+    },
+    {
+      "name": "Spork",
+      "score": 1
+    },
+    {
+      "name": "Sprinkle",
+      "score": 1
+    },
+    {
+      "name": "Sprocket",
+      "score": 3
+    },
+    {
+      "name": "Static",
+      "score": 1
+    },
+    {
+      "name": "Stella",
+      "score": 1
+    },
+    {
+      "name": "Sterling",
+      "score": 1
+    },
+    {
+      "name": "Stinky",
+      "score": 1
+    },
+    {
+      "name": "Stitches",
+      "score": 1
+    },
+    {
+      "name": "Stu",
+      "score": 1
+    },
+    {
+      "name": "Sydney",
+      "score": 2
+    },
+    {
+      "name": "Sylvana",
+      "score": 2
+    },
+    {
+      "name": "Sylvia",
+      "score": 2
+    },
+    {
+      "name": "Tabby",
+      "score": 3
+    },
+    {
+      "name": "Tad",
+      "score": 1
+    },
+    {
+      "name": "Tammi",
+      "score": 3
+    },
+    {
+      "name": "Tammy",
+      "score": 1
+    },
+    {
+      "name": "Tangy",
+      "score": 2
+    },
+    {
+      "name": "Tank",
+      "score": 1
+    },
+    {
+      "name": "Tasha",
+      "score": 1
+    },
+    {
+      "name": "T-Bone",
+      "score": 1
+    },
+    {
+      "name": "Teddy",
+      "score": 1
+    },
+    {
+      "name": "Tex",
+      "score": 1
+    },
+    {
+      "name": "Tia",
+      "score": 1
+    },
+    {
+      "name": "Tiansheng",
+      "score": 1
+    },
+    {
+      "name": "Tiffany",
+      "score": 2
+    },
+    {
+      "name": "Timbra",
+      "score": 1
+    },
+    {
+      "name": "Tipper",
+      "score": 1
+    },
+    {
+      "name": "Toby",
+      "score": 1
+    },
+    {
+      "name": "Tom",
+      "score": 2
+    },
+    {
+      "name": "Truffles",
+      "score": 3
+    },
+    {
+      "name": "Tucker",
+      "score": 3
+    },
+    {
+      "name": "Tutu",
+      "score": 2
+    },
+    {
+      "name": "Twiggy",
+      "score": 3
+    },
+    {
+      "name": "Tybalt",
+      "score": 1
+    },
+    {
+      "name": "Ursala",
+      "score": 1
+    },
+    {
+      "name": "Velma",
+      "score": 2
+    },
+    {
+      "name": "Vesta",
+      "score": 3
+    },
+    {
+      "name": "Vic",
+      "score": 1
+    },
+    {
+      "name": "Victoria",
+      "score": 1
+    },
+    {
+      "name": "Violet",
+      "score": 1
+    },
+    {
+      "name": "Vivian",
+      "score": 1
+    },
+    {
+      "name": "Vladimir",
+      "score": 2
+    },
+    {
+      "name": "Wade",
+      "score": 1
+    },
+    {
+      "name": "Walker",
+      "score": 1
+    },
+    {
+      "name": "Walt",
+      "score": 1
+    },
+    {
+      "name": "Wart Jr.",
+      "score": 1
+    },
+    {
+      "name": "Weber",
+      "score": 1
+    },
+    {
+      "name": "Wendy",
+      "score": 3
+    },
+    {
+      "name": "Whitney",
+      "score": 1
+    },
+    {
+      "name": "Willow",
+      "score": 1
+    },
+    {
+      "name": "Winnie",
+      "score": 1
+    },
+    {
+      "name": "Wolfgang",
+      "score": 3
+    },
+    {
+      "name": "Yuka",
+      "score": 1
+    },
+    {
+      "name": "Zell",
+      "score": 1
+    },
+    {
+      "name": "Zoe",
+      "score": 2
+    },
+    {
+      "name": "Zucker",
+      "score": 1
+    }
+  ]
+}
