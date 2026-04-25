@@ -298,7 +298,7 @@
     },
     {
       "name": "Cashmere",
-      "score": 1
+      "score": 2
     },
     {
       "name": "Celia",
@@ -306,7 +306,7 @@
     },
     {
       "name": "Cephalobot",
-      "score": 3
+      "score": 1
     },
     {
       "name": "Cesar",
@@ -458,7 +458,7 @@
     },
     {
       "name": "Del",
-      "score": 2
+      "score": 1
     },
     {
       "name": "Deli",
@@ -654,7 +654,7 @@
     },
     {
       "name": "Gladys",
-      "score": 1
+      "score": 2
     },
     {
       "name": "Gloria",
@@ -790,7 +790,7 @@
     },
     {
       "name": "Julia",
-      "score": 1
+      "score": 2
     },
     {
       "name": "Julian",
@@ -1061,11 +1061,11 @@
       "score": 1
     },
     {
-      "name": "Octavian",
+      "name": "O'Hare",
       "score": 1
     },
     {
-      "name": "O'Hare",
+      "name": "Octavian",
       "score": 1
     },
     {
@@ -1270,7 +1270,7 @@
     },
     {
       "name": "Ribbot",
-      "score": 3
+      "score": 1
     },
     {
       "name": "Ricky",
@@ -1477,6 +1477,10 @@
       "score": 2
     },
     {
+      "name": "T-Bone",
+      "score": 1
+    },
+    {
       "name": "Tabby",
       "score": 3
     },
@@ -1502,10 +1506,6 @@
     },
     {
       "name": "Tasha",
-      "score": 1
-    },
-    {
-      "name": "T-Bone",
       "score": 1
     },
     {
