@@ -49,6 +49,11 @@ function downloadJson(filename, obj) {
   URL.revokeObjectURL(url);
 }
 
+function nowIso() {
+  // match generator: YYYY-MM-DDTHH:mm:ssZ
+  return new Date().toISOString().replace(/\.\d{3}Z$/, "Z");
+}
+
 async function loadDatabase() {
   const [villagersRes, diffRes] = await Promise.all([
     fetch(DATA.villagersUrl, { cache: "no-store" }),
@@ -160,11 +165,22 @@ function villagerMatchesQuery(v, q) {
   return hay.includes(q);
 }
 
-function buildUrlRow({ v, imgUrl, url }) {
+function buildUrlRow({ v, imgUrl, url, onClick }) {
   const box = mk("input", { class: "urlBox", value: url || "", readonly: "true" });
   box.addEventListener("focus", () => box.select());
+  // Prevent card-click when user clicks into input
+  box.addEventListener("click", (e) => e.stopPropagation());
   const body = mk("div", { class: "rowBody" }, [mk("div", { class: "name", text: v.name }), box]);
-  return mk("div", { class: "row" }, [mk("img", { class: "thumb", src: imgUrl || "", alt: "" }), body]);
+  const row = mk("div", { class: "row" }, [mk("img", { class: "thumb", src: imgUrl || "", alt: "" }), body]);
+  if (onClick) {
+    row.tabIndex = 0;
+    row.setAttribute("role", "button");
+    row.addEventListener("click", () => onClick(v));
+    row.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") onClick(v);
+    });
+  }
+  return row;
 }
 
 function buildScoreEditor({ name, score, onSet }) {
@@ -248,6 +264,7 @@ function renderInteriors({ villagers }) {
         v,
         imgUrl: url,
         url,
+        onClick: v._openHouseEditor || null,
       }),
     );
   }
@@ -265,10 +282,31 @@ function renderExteriors({ villagers }) {
         v,
         imgUrl: url,
         url,
+        onClick: v._openHouseEditor || null,
       }),
     );
   }
   list.appendChild(frag);
+}
+
+function buildHousesExportObject({ villagers }) {
+  const houses = {};
+  let count = 0;
+  for (const v of villagers) {
+    const interior = String(v.house_interior_url || "").trim();
+    const exterior = String(v.house_exterior_url || "").trim();
+    if (!interior && !exterior) continue;
+    houses[v.name] = { interior, exterior };
+    count += 1;
+  }
+  return {
+    houses,
+    meta: {
+      generated_at: nowIso(),
+      count,
+      missing: 0,
+    },
+  };
 }
 
 function buildExportObject({ villagers, difficulty }) {
@@ -426,6 +464,71 @@ async function boot() {
   let query = "";
   const searchBox = el("searchBox");
 
+  // House editing state
+  let housesDirty = false;
+  const housesDirtyBadgeA = el("housesDirtyBadge");
+  const housesDirtyBadgeB = el("housesDirtyBadge2");
+  const housesExportBtnA = el("housesExportBtnA");
+  const housesExportBtnB = el("housesExportBtnB");
+
+  const houseTitle = el("houseTitle");
+  const houseInteriorImg = el("houseInteriorImg");
+  const houseExteriorImg = el("houseExteriorImg");
+  const houseInteriorUrl = el("houseInteriorUrl");
+  const houseExteriorUrl = el("houseExteriorUrl");
+  const houseBackBtn = el("houseBack");
+  const houseSaveBtn = el("houseSave");
+
+  let houseEditingName = "";
+  let houseReturnTab = "interiors";
+
+  function setHousesDirty(v) {
+    housesDirty = !!v;
+    const show = housesDirty ? "" : "none";
+    housesDirtyBadgeA.style.display = show;
+    housesDirtyBadgeB.style.display = show;
+    housesExportBtnA.style.display = show;
+    housesExportBtnB.style.display = show;
+  }
+
+  function openHouseEditor(v, returnTab) {
+    houseEditingName = v.name;
+    houseReturnTab = returnTab || activeTab || "interiors";
+    houseTitle.textContent = `House — ${v.name}`;
+
+    houseInteriorUrl.value = v.house_interior_url || "";
+    houseExteriorUrl.value = v.house_exterior_url || "";
+
+    houseInteriorImg.alt = `${v.name} interior`;
+    houseExteriorImg.alt = `${v.name} exterior`;
+    houseInteriorImg.src = v.house_interior_url || "";
+    houseExteriorImg.src = v.house_exterior_url || "";
+
+    setView("house");
+    // keep tab selection visually stable: setView already changes tab aria-selected; force none selected
+    for (const btn of document.querySelectorAll("[role=tab]")) btn.setAttribute("aria-selected", "false");
+  }
+
+  function applyHouseDraftToImages() {
+    houseInteriorImg.src = String(houseInteriorUrl.value || "").trim();
+    houseExteriorImg.src = String(houseExteriorUrl.value || "").trim();
+  }
+
+  function saveHouseEdits() {
+    const name = houseEditingName;
+    if (!name) return;
+    const v = villagersAll.find((x) => x.name === name);
+    if (!v) return;
+
+    const interior = String(houseInteriorUrl.value || "").trim();
+    const exterior = String(houseExteriorUrl.value || "").trim();
+    if (v.house_interior_url !== interior || v.house_exterior_url !== exterior) {
+      v.house_interior_url = interior;
+      v.house_exterior_url = exterior;
+      setHousesDirty(true);
+    }
+  }
+
   function filteredVillagers() {
     const q = normalizeQuery(query);
     if (!q) return villagersAll;
@@ -434,6 +537,10 @@ async function boot() {
 
   function rerenderActive() {
     const v = filteredVillagers();
+    // Attach editor opener as non-enumerable-ish property (runtime only)
+    for (const x of v) {
+      x._openHouseEditor = (vv) => openHouseEditor(vv, activeTab);
+    }
     if (activeTab === "characters") renderCharacters({ villagers: v });
     else if (activeTab === "images") renderImages({ villagers: v });
     else if (activeTab === "icons") renderIcons({ villagers: v });
@@ -489,7 +596,32 @@ async function boot() {
     rerenderActive();
   });
 
+  // House editor wiring
+  houseInteriorUrl.addEventListener("input", applyHouseDraftToImages);
+  houseExteriorUrl.addEventListener("input", applyHouseDraftToImages);
+  houseBackBtn.addEventListener("click", () => {
+    // do not auto-save on back
+    activeTab = houseReturnTab;
+    setView(houseReturnTab);
+    rerenderActive();
+  });
+  houseSaveBtn.addEventListener("click", () => {
+    saveHouseEdits();
+    activeTab = houseReturnTab;
+    setView(houseReturnTab);
+    rerenderActive();
+  });
+
+  const exportHouses = () => {
+    const obj = buildHousesExportObject({ villagers: villagersAll });
+    downloadJson("houses.json", obj);
+    setHousesDirty(false);
+  };
+  housesExportBtnA.addEventListener("click", exportHouses);
+  housesExportBtnB.addEventListener("click", exportHouses);
+
   // Initial render
+  setHousesDirty(false);
   rerenderActive();
 
   // Export
