@@ -89,6 +89,7 @@ async function loadDatabase() {
           {
             interior: String(v?.interior ?? "").trim(),
             exterior: String(v?.exterior ?? "").trim(),
+            score: Number(v?.score ?? NaN),
           },
         ]),
       );
@@ -101,6 +102,7 @@ async function loadDatabase() {
     const h = housesMap.get(v.name);
     v.house_interior_url = h?.interior || "";
     v.house_exterior_url = h?.exterior || "";
+    v.house_score = Number.isFinite(h?.score) ? h.score : null;
   }
 
   let diffMap = new Map();
@@ -295,8 +297,11 @@ function buildHousesExportObject({ villagers }) {
   for (const v of villagers) {
     const interior = String(v.house_interior_url || "").trim();
     const exterior = String(v.house_exterior_url || "").trim();
-    if (!interior && !exterior) continue;
-    houses[v.name] = { interior, exterior };
+    const score = Number.isFinite(v.house_score) ? Number(v.house_score) : null;
+    if (!interior && !exterior && score === null) continue;
+    const row = { interior, exterior };
+    if (score !== null) row.score = score;
+    houses[v.name] = row;
     count += 1;
   }
   return {
