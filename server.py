@@ -2,14 +2,25 @@ from __future__ import annotations
 
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlsplit
+import traceback
 
 
 class Handler(SimpleHTTPRequestHandler):
     def do_GET(self) -> None:
-        path = urlsplit(self.path).path
-        if path == "/":
-            self.path = "/index.html"
-        super().do_GET()
+        try:
+            path = urlsplit(self.path).path
+            if path == "/":
+                self.path = "/index.html"
+            super().do_GET()
+        except Exception:
+            traceback.print_exc()
+            raise
+
+    def log_message(self, format: str, *args) -> None:  # noqa: A002
+        try:
+            super().log_message(format, *args)
+        except Exception:
+            traceback.print_exc()
 
 
 def main() -> None:

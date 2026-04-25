@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ACNH — Editor</title>
+    <link rel="stylesheet" href="./editor.css" />
+  </head>
+  <body>
+    <header>
+      <div class="topbar">
+        <div class="title">ACNH — Editor</div>
+        <div class="status" id="status"></div>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Editor tabs">
+        <button class="tabBtn" id="tab-characters" type="button" role="tab" aria-selected="true">
+          Characters
+        </button>
+        <button class="tabBtn" id="tab-images" type="button" role="tab" aria-selected="false">
+          Images
+        </button>
+        <button class="tabBtn" id="tab-icons" type="button" role="tab" aria-selected="false">
+          Icons
+        </button>
+        <button class="tabBtn" id="tab-gender" type="button" role="tab" aria-selected="false">
+          Gender
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel" id="view-characters" data-view="characters">
+        <div class="panelTop">
+          <div class="panelTitle">All characters</div>
+          <div class="panelActions">
+            <button class="iconBtn" id="silhouetteToggle" type="button" aria-pressed="false" title="Silhouette toggle">
+              💡
+            </button>
+          </div>
+        </div>
+        <div class="list" id="charactersList"></div>
+      </section>
+
+      <section class="panel" id="view-images" data-view="images" style="display: none">
+        <div class="panelTop">
+          <div class="panelTitle">Image character URL</div>
+        </div>
+        <div class="list" id="imagesList"></div>
+      </section>
+
+      <section class="panel" id="view-icons" data-view="icons" style="display: none">
+        <div class="panelTop">
+          <div class="panelTitle">Image icon URL</div>
+        </div>
+        <div class="list" id="iconsList"></div>
+      </section>
+
+      <section class="panel" id="view-gender" data-view="gender" style="display: none">
+        <div class="panelTop">
+          <div class="panelTitle">Gender difficulty</div>
+          <div class="panelActions">
+            <button class="btn" id="genderModeList" type="button" aria-pressed="true">List</button>
+            <button class="btn" id="genderModeQuiz" type="button" aria-pressed="false">Quiz</button>
+            <div class="spacer"></div>
+            <div class="dirty" id="dirtyBadge" style="display: none">unsaved</div>
+            <button class="primaryBtn" id="exportBtn" type="button">Export JSON</button>
+          </div>
+        </div>
+
+        <div id="genderListWrap">
+          <div class="list" id="genderList"></div>
+        </div>
+
+        <div id="genderQuizWrap" style="display: none">
+          <div class="quizCard">
+            <div class="qTop">
+              <div class="qCount" id="gqCount">—</div>
+            </div>
+            <div class="media" id="gqMedia">
+              <img class="qImg" id="gqImg" alt="" draggable="false" />
+            </div>
+            <div class="qPrompt" id="gqPrompt">—</div>
+            <div class="options grid3" id="gqOptions"></div>
+            <div class="navRow">
+              <button class="btn" id="gqBack" type="button">Back</button>
+              <button class="btn" id="gqNext" type="button">Next</button>
+            </div>
+            <div class="quizEnd" id="gqEnd" style="display: none">
+              <button class="primaryBtn" id="gqExportBtn" type="button">Export JSON</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./editor.js"></script>
+  </body>
+</html>
+
