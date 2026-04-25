@@ -64,6 +64,7 @@ async function loadDatabase() {
       personality: String(v?.personality ?? "").trim(),
       birthday: String(v?.birthday ?? "").trim(),
       hobby: String(v?.hobby ?? "").trim(),
+      page_url: String(v?.page_url ?? "").trim(),
       image_character_url: String(v?.image_character_url ?? "").trim(),
       image_icon_url: String(v?.image_icon_url ?? "").trim(),
     }))
@@ -99,11 +100,27 @@ function setView(name) {
   }
 }
 
-function buildRow({ v, imgUrl, rightEl }) {
+function buildRow({ v, imgUrl, rightEl, href }) {
   const img = mk("img", { class: "thumb", src: imgUrl || "", alt: "" });
   img.draggable = false;
   const body = mk("div", { class: "rowBody" }, [mk("div", { class: "name", text: v.name }), rightEl].filter(Boolean));
+  if (href) {
+    return mk("a", { class: "row rowLink", href, target: "_blank", rel: "noreferrer noopener" }, [img, body]);
+  }
   return mk("div", { class: "row" }, [img, body]);
+}
+
+function normalizeQuery(q) {
+  return String(q ?? "").trim().toLowerCase();
+}
+
+function villagerMatchesQuery(v, q) {
+  if (!q) return true;
+  const hay = [v.name, v.species, v.personality, v.hobby, v.birthday, v.gender]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+  return hay.includes(q);
 }
 
 function buildUrlRow({ v, imgUrl, url }) {
@@ -144,6 +161,7 @@ function renderCharacters({ villagers }) {
         v,
         imgUrl: v.image_character_url,
         rightEl: metaParts.length ? mk("div", { class: "sub", text: metaParts.join(" · ") }) : null,
+        href: v.page_url || null,
       }),
     );
   }
@@ -323,7 +341,7 @@ function createGenderQuiz({ villagers, difficulty, onDirty }) {
 
 async function boot() {
   setStatus("loading…");
-  const { villagers, difficulty } = await loadDatabase();
+  const { villagers: villagersAll, difficulty } = await loadDatabase();
   setStatus("");
 
   let dirty = false;
@@ -333,11 +351,45 @@ async function boot() {
     dirtyBadge.style.display = dirty ? "" : "none";
   };
 
+  let activeTab = "characters";
+  let query = "";
+  const searchBox = el("searchBox");
+
+  function filteredVillagers() {
+    const q = normalizeQuery(query);
+    if (!q) return villagersAll;
+    return villagersAll.filter((v) => villagerMatchesQuery(v, q));
+  }
+
+  function rerenderActive() {
+    const v = filteredVillagers();
+    if (activeTab === "characters") renderCharacters({ villagers: v });
+    else if (activeTab === "images") renderImages({ villagers: v });
+    else if (activeTab === "icons") renderIcons({ villagers: v });
+    else if (activeTab === "gender") renderGenderList({ villagers: v, difficulty, onDirty: setDirty });
+  }
+
   // Tabs
-  el("tab-characters").addEventListener("click", () => setView("characters"));
-  el("tab-images").addEventListener("click", () => setView("images"));
-  el("tab-icons").addEventListener("click", () => setView("icons"));
-  el("tab-gender").addEventListener("click", () => setView("gender"));
+  el("tab-characters").addEventListener("click", () => {
+    activeTab = "characters";
+    setView("characters");
+    rerenderActive();
+  });
+  el("tab-images").addEventListener("click", () => {
+    activeTab = "images";
+    setView("images");
+    rerenderActive();
+  });
+  el("tab-icons").addEventListener("click", () => {
+    activeTab = "icons";
+    setView("icons");
+    rerenderActive();
+  });
+  el("tab-gender").addEventListener("click", () => {
+    activeTab = "gender";
+    setView("gender");
+    rerenderActive();
+  });
 
   // Silhouette toggle (global for editor)
   const silBtn = el("silhouetteToggle");
@@ -348,17 +400,18 @@ async function boot() {
     document.body.classList.toggle("silhouetteOn", next);
   });
 
-  // Render static tabs
-  renderCharacters({ villagers });
-  renderImages({ villagers });
-  renderIcons({ villagers });
+  // Search
+  searchBox.addEventListener("input", () => {
+    query = searchBox.value;
+    rerenderActive();
+  });
 
-  // Gender list
-  renderGenderList({ villagers, difficulty, onDirty: setDirty });
+  // Initial render
+  rerenderActive();
 
   // Export
   const doExport = () => {
-    const obj = buildExportObject({ villagers, difficulty });
+    const obj = buildExportObject({ villagers: villagersAll, difficulty });
     downloadJson("gender_difficulty.json", obj);
     setDirty(false);
   };
@@ -379,11 +432,10 @@ async function boot() {
     wrapList.style.display = isQuiz ? "none" : "";
     wrapQuiz.style.display = isQuiz ? "" : "none";
     if (isQuiz) {
-      quiz = quiz || createGenderQuiz({ villagers, difficulty, onDirty: setDirty });
+      quiz = quiz || createGenderQuiz({ villagers: villagersAll, difficulty, onDirty: setDirty });
       quiz.reset();
     } else {
-      // keep list view reflecting latest map (cheap rerender)
-      renderGenderList({ villagers, difficulty, onDirty: setDirty });
+      rerenderActive();
     }
   }
 

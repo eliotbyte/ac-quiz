@@ -39,6 +39,30 @@ header {
   gap: 12px;
 }
 
+.topbarRight {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  min-width: 0;
+}
+
+.searchBox {
+  width: min(420px, 46vw);
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(17, 19, 24, 0.14);
+  background: rgba(255, 255, 255, 0.9);
+  font-weight: 850;
+  font-size: 12px;
+  outline: none;
+}
+
+.searchBox:focus {
+  border-color: rgba(17, 19, 24, 0.28);
+}
+
 .title {
   font-weight: 950;
   font-size: 14px;
@@ -196,6 +220,16 @@ main {
   grid-template-rows: 168px auto;
   gap: 10px;
   align-items: start;
+}
+
+.rowLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.rowLink:hover {
+  border-color: rgba(17, 19, 24, 0.26);
+  background: rgba(17, 19, 24, 0.04);
 }
 
 .thumb {
