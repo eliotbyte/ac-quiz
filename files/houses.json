@@ -1,0 +1,1620 @@
+{
+  "houses": {
+    "Admiral": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b8/NH_Admiral_House_Interior.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d0/NH_Admiral_House_Ext.png"
+    },
+    "Alice": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6a/NH_Alice_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d4/NH_Alice_House_Ext.png"
+    },
+    "Al": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/41/NH_Al_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/dd/NH_Al_House_Ext.png"
+    },
+    "Ace": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/70/NH_Ace_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/eb/NH_Ace_House_Ext.png"
+    },
+    "Agent S": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/df/NH_Agent_S_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e5/NH_Agent_S_House_Ext.png"
+    },
+    "Alli": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/63/NH_Alli_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8b/NH_Alli_House_Ext.png"
+    },
+    "Agnes": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9d/NH_Agnes_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/bb/NH_Agnes_House_Ext.png"
+    },
+    "Alfonso": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e2/NH_Alfonso_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fb/NH_Alfonso_House_Ext.png"
+    },
+    "Amelia": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/81/NH_Amelia_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b5/NH_Amelia_House_Ext.png"
+    },
+    "Anchovy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d2/NH_Anchovy_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e1/NH_Anchovy_House_Ext.png"
+    },
+    "Anabelle": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/81/NH_Anabelle_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/76/NH_Anabelle_House_Ext.png"
+    },
+    "Angus": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/57/NH_Angus_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f4/NH_Angus_House_Ext.png"
+    },
+    "Ankha": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/cd/NH_Ankha_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/ea/NH_Ankha_House_Ext.png"
+    },
+    "Anicotti": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/bb/NH_Anicotti_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/bb/NH_Anicotti_House_Ext.png"
+    },
+    "Annalisa": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/37/NH_Annalisa_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/00/NH_Annalisa_House_Ext.png"
+    },
+    "Annalise": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/33/NH_Annalise_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/2f/NH_Annalise_House_Ext.png"
+    },
+    "Antonio": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/86/NH_Antonio_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/41/NH_Antonio_House_Ext.png"
+    },
+    "Apollo": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/df/NH_Apollo_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/60/NH_Apollo_House_Ext.png"
+    },
+    "Audie": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/22/NH_Audie_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/ec/NH_Audie_House_Ext.png"
+    },
+    "Ava": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/62/NH_Ava_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3b/NH_Ava_House_Ext.png"
+    },
+    "Avery": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/24/NH_Avery_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6a/NH_Avery_House_Ext.png"
+    },
+    "Aurora": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a6/NH_Aurora_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/12/NH_Aurora_House_Ext.png"
+    },
+    "Astrid": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d0/NH_Astrid_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/34/NH_Astrid_House_Ext.png"
+    },
+    "Axel": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9e/NH_Axel_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e4/NH_Axel_House_Ext.png"
+    },
+    "Apple": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f1/NH_Apple_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/cc/NH_Apple_House_Ext.png"
+    },
+    "Azalea": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f6/NH_Azalea_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/cb/NH_Azalea_House_Ext.jpg"
+    },
+    "Bam": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a6/NH_Bam_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d6/NH_Bam_House_Ext.png"
+    },
+    "Barold": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/2d/NH_Barold_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/21/NH_Barold_House_Ext.png"
+    },
+    "Bangle": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/dc/NH_Bangle_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a2/NH_Bangle_House_Ext.png"
+    },
+    "Baabara": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/59/NH_Baabara_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b3/NH_Baabara_House_Ext.png"
+    },
+    "Bea": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8d/NH_Bea_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f5/NH_Bea_House_Ext.png"
+    },
+    "Beardo": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/bc/NH_Beardo_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/52/NH_Beardo_House_Ext.png"
+    },
+    "Beau": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/51/NH_Beau_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9e/NH_Beau_House_Ext.png"
+    },
+    "Bettina": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/03/NH_Bettina_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/dc/NH_Bettina_House_Ext.png"
+    },
+    "Benedict": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a2/NH_Benedict_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b7/NH_Benedict_House_Ext.png"
+    },
+    "Becky": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/2c/NH_Becky_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/99/NH_Becky_House_Ext.png"
+    },
+    "Benjamin": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/44/NH_Benjamin_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/07/NH_Benjamin_House_Ext.png"
+    },
+    "Bella": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/97/NH_Bella_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/39/NH_Bella_House_Ext.png"
+    },
+    "Bertha": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6e/NH_Bertha_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/25/NH_Bertha_House_Ext.png"
+    },
+    "Bianca": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/79/NH_Bianca_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/36/NH_Bianca_House_Ext.png"
+    },
+    "Biff": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/4f/NH_Biff_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8e/NH_Biff_House_Ext.png"
+    },
+    "Bill": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a4/NH_Bill_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/31/NH_Bill_House_Ext.png"
+    },
+    "Big Top": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d9/NH_Big_Top_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3c/NH_Big_Top_House_Ext.png"
+    },
+    "Biskit": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/7a/NH_Biskit_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e9/NH_Biskit_House_Ext.png"
+    },
+    "Billy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/22/NH_Billy_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/56/NH_Billy_House_Ext.png"
+    },
+    "Bitty": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/94/NH_Bitty_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/77/NH_Bitty_House_Ext.png"
+    },
+    "Blanche": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/5b/NH_Blanche_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/97/NH_Blanche_House_Ext.png"
+    },
+    "Blaire": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3d/NH_Blaire_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c4/NH_Blaire_House_Ext.png"
+    },
+    "Bluebear": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c9/NH_Bluebear_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/cd/NH_Bluebear_House_Ext.png"
+    },
+    "Boomer": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f0/NH_Boomer_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/00/NH_Boomer_House_Ext.png"
+    },
+    "Bones": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c4/NH_Bones_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/7d/NH_Bones_House_Ext.png"
+    },
+    "Boone": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d8/NH_Boone_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/cd/NH_Boone_House_Ext.png"
+    },
+    "Bob": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/0b/NH_Bob_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/cd/NH_Bob_House_Ext.png"
+    },
+    "Boots": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/bb/NH_Boots_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/03/NH_Boots_House_Ext.png"
+    },
+    "Boris": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f7/NH_Boris_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b1/NH_Boris_House_Ext.png"
+    },
+    "Bree": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c8/NH_Bree_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3d/NH_Bree_House_Ext.png"
+    },
+    "Bonbon": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/49/NH_Bonbon_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6c/NH_Bonbon_House_Ext.png"
+    },
+    "Broccolo": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/45/NH_Broccolo_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/a/ab/NH_Broccolo_House_Ext.png"
+    },
+    "Bruce": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9a/NH_Bruce_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e7/NH_Bruce_House_Ext.png"
+    },
+    "Boyd": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/5d/NH_Boyd_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/86/NH_Boyd_House_Ext.png"
+    },
+    "Bubbles": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/23/NH_Bubbles_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/2b/NH_Bubbles_House_Ext.png"
+    },
+    "Broffina": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fc/NH_Broffina_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e2/NH_Broffina_House_Ext.png"
+    },
+    "Buck": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/0f/NH_Buck_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9d/NH_Buck_House_Ext.png"
+    },
+    "Bud": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/77/NH_Bud_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/00/NH_Bud_House_Ext.png"
+    },
+    "Camofrog": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a9/NH_Camofrog_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6e/NH_Camofrog_House_Ext.png"
+    },
+    "Butch": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8d/NH_Butch_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c1/NH_Butch_House_Ext.png"
+    },
+    "Cally": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3d/PG-House_of_Cally_interior.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c5/NH_Cally_House_Ext.png"
+    },
+    "Bunnie": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f5/NH_Bunnie_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6a/NH_Bunnie_House_Ext.png"
+    },
+    "Canberra": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fb/NH_Canberra_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a9/NH_Canberra_House_Ext.png"
+    },
+    "Buzz": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e5/NH_Buzz_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/83/NH_Buzz_House_Ext.png"
+    },
+    "Caroline": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fa/NH_Caroline_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c8/NH_Caroline_House_Ext.png"
+    },
+    "Cashmere": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f6/NH_Cashmere_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/05/NH_Cashmere_House_Ext.png"
+    },
+    "Cephalobot": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/09/House_of_Cephalobot_NH.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/74/NH_Cephalobot_House_Ext.jpg"
+    },
+    "Carmen": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c6/NH_Carmen_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/4f/NH_Carmen_House_Ext.png"
+    },
+    "Candi": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fe/NH_Candi_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c5/NH_Candi_House_Ext.png"
+    },
+    "Chadder": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/42/NH_Chadder_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/0a/NH_Chadder_House_Ext.png"
+    },
+    "Celia": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/7b/NH_Celia_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/17/NH_Celia_House_Ext.png"
+    },
+    "Cesar": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/07/NH_Cesar_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f1/NH_Cesar_House_Ext.png"
+    },
+    "Chabwick": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/88/NH_Chabwick_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/39/NH_Chabwick_House_Ext.jpg"
+    },
+    "Chai": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/1/19/NH_Chai_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/91/NH_Chai_House_Ext.png"
+    },
+    "Charlise": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/34/NH_Charlise_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/0c/NH_Charlise_House_Ext.png"
+    },
+    "Chelsea": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8c/NH_Chelsea_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/27/NH_Chelsea_House_Ext.png"
+    },
+    "Cheri": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/08/NH_Cheri_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9f/NH_Cheri_House_Ext.png"
+    },
+    "Chevre": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/2f/NH_Chevre_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e4/NH_Chevre_House_Ext.png"
+    },
+    "Cherry": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e9/NH_Cherry_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/1e/NH_Cherry_House_Ext.png"
+    },
+    "Chester": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/7c/NH_Chester_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/0b/NH_Chester_House_Ext.png"
+    },
+    "Chief": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/63/NH_Chief_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c9/NH_Chief_House_Ext.png"
+    },
+    "Chops": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/87/NH_Chops_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/22/NH_Chops_House_Ext.png"
+    },
+    "Chrissy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/1/19/NH_Chrissy_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f2/NH_Chrissy_House_Ext.png"
+    },
+    "Claude": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/cc/AF_Claude_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a4/NH_Claude_House_Ext.png"
+    },
+    "Chow": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8b/NH_Chow_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8f/NH_Chow_House_Ext.png"
+    },
+    "Claudia": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a2/NH_Claudia_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/87/NH_Claudia_House_Ext.png"
+    },
+    "Clyde": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/76/NH_Clyde_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f5/NH_Clyde_House_Ext.png"
+    },
+    "Coach": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/02/NH_Coach_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/ec/NH_Coach_House_Ext.png"
+    },
+    "Cleo": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/52/NH_Cleo_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f5/NH_Cleo_House_Ext.png"
+    },
+    "Cobb": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/09/NH_Cobb_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/de/NH_Cobb_House_Ext.png"
+    },
+    "Coco": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a7/NH_Coco_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/bd/NH_Coco_House_Ext.png"
+    },
+    "Cole": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/60/NL_Cole_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/47/NH_Cole_House_Ext.png"
+    },
+    "Colton": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/bc/NH_Colton_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/56/NH_Colton_House_Ext.png"
+    },
+    "Cookie": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d9/NH_Cookie_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/73/NH_Cookie_House_Ext.png"
+    },
+    "Cousteau": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/47/GC_Cousteau_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/0a/NH_Cousteau_House_Ext.png"
+    },
+    "Croque": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/08/NH_Croque_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/7b/NH_Croque_House_Ext.png"
+    },
+    "Cube": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c2/NH_Cube_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f5/NH_Cube_House_Ext.png"
+    },
+    "Curly": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/30/NH_Curly_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/65/NH_Curly_House_Ext.png"
+    },
+    "Curlos": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/4f/NH_Curlos_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/bc/NH_Curlos_House_Ext.png"
+    },
+    "Cranston": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6c/NH_Cranston_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d6/NH_Cranston_House_Ext.png"
+    },
+    "Cyd": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6b/NH_Cyd_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/45/NH_Cyd_House_Ext.png"
+    },
+    "Curt": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/92/NH_Curt_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8d/NH_Curt_House_Ext.png"
+    },
+    "Cyrano": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d6/NH_Cyrano_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/4d/NH_Cyrano_House_Ext.png"
+    },
+    "Daisy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/55/NH_Daisy_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/a/aa/NH_Daisy_House_Ext.png"
+    },
+    "Deirdre": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/ed/NL_Deirdre_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8c/NH_Deirdre_House_Ext.png"
+    },
+    "Deena": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/96/NH_Deena_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/ff/NH_Deena_House_Ext.png"
+    },
+    "Deli": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/1/11/NH_Deli_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e5/NH_Deli_House_Ext.png"
+    },
+    "Del": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8c/NH_Del_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/1b/NH_Del_House_Ext.png"
+    },
+    "Derwin": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/53/NH_Derwin_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/72/NH_Derwin_House_Ext.png"
+    },
+    "Diana": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a5/NH_Diana_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f1/NH_Diana_House_Ext.png"
+    },
+    "Diva": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d2/NL_Diva_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/7a/NH_Diva_House_Ext.png"
+    },
+    "Doc": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/29/NH_Doc_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/26/NH_Doc_House_Ext.png"
+    },
+    "Dobie": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/0e/NH_Dobie_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c4/NH_Dobie_House_Ext.png"
+    },
+    "Dom": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6f/NH_Dom_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9b/NH_Dom_House_Ext.png"
+    },
+    "Dora": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c3/NH_Dora_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/bd/NH_Dora_House_Ext.png"
+    },
+    "Dizzy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/dc/NH_Dizzy_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d5/NH_Dizzy_House_Ext.png"
+    },
+    "Drago": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/ce/NH_Drago_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/4b/NH_Drago_House_Ext.png"
+    },
+    "Dotty": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/7b/NH_Dotty_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/a/ab/NH_Dotty_House_Ext.png"
+    },
+    "Drake": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/bf/NH_Drake_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/00/NH_Drake_House_Ext.png"
+    },
+    "Ed": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8c/NH_Ed_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/19/NH_Ed_House_Ext.png"
+    },
+    "Drift": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/1/1f/CF_Drift_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/44/NH_Drift_House_Ext.png"
+    },
+    "Elise": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/83/NH_Elise_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/56/NH_Elise_House_Ext.png"
+    },
+    "Elmer": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b3/NH_Elmer_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8b/NH_Elmer_House_Ext.png"
+    },
+    "Egbert": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/85/NH_Egbert_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d2/NH_Egbert_House_Ext.png"
+    },
+    "Eloise": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/76/GC_Eloise_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/00/NH_Eloise_House_Ext.png"
+    },
+    "Erik": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/94/NH_Erik_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/15/NH_Erik_House_Ext.png"
+    },
+    "Eugene": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/cc/NH_Eugene_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/95/NH_Eugene_House_Ext.png"
+    },
+    "Eunice": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/1/18/NH_Eunice_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/63/NH_Eunice_House_Ext.png"
+    },
+    "Elvis": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a8/NH_Elvis_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/21/NH_Elvis_House_Ext.png"
+    },
+    "Faith": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/5b/NH_Faith_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b1/NH_Faith_House_Ext.png"
+    },
+    "Felicity": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/be/NH_Felicity_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a9/NH_Felicity_House_Ext.png"
+    },
+    "Fang": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/93/NH_Fang_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/72/NH_Fang_House_Ext.png"
+    },
+    "Fauna": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f8/NH_Fauna_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/49/NH_Fauna_House_Ext.png"
+    },
+    "Filbert": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9b/NH_Filbert_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/4c/NH_Filbert_House_Ext.png"
+    },
+    "Flip": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/ec/NH_Flip_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6e/NH_Flip_House_Ext.png"
+    },
+    "Flo": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/da/NL_Flo_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/dc/NH_Flo_House_Ext.png"
+    },
+    "Frank": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c0/NH_Frank_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/4d/NH_Frank_House_Ext.png"
+    },
+    "Francine": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/2e/NH_Francine_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/7b/NH_Francine_House_Ext.png"
+    },
+    "Flurry": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c9/NL_Flurry_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/74/NH_Flurry_House_Ext.png"
+    },
+    "Frett": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/ad/House_of_Frett_NH.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/a/ad/House_of_Frett_NH.jpg"
+    },
+    "Flora": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b0/NH_Flora_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/ba/NH_Flora_House_Ext.png"
+    },
+    "Freckles": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/32/NH_Freckles_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d5/NH_Freckles_House_Ext.png"
+    },
+    "Freya": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6a/NH_Freya_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a7/NH_Freya_House_Ext.png"
+    },
+    "Fuchsia": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/93/NL_Fuchsia_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/1a/NH_Fuchsia_House_Ext.png"
+    },
+    "Gala": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f7/NH_Gala_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fe/NH_Gala_House_Ext.png"
+    },
+    "Gaston": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8d/NH_Gaston_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/a/ae/NH_Gaston_House_Ext.png"
+    },
+    "Gayle": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d3/NL_Gayle_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/84/NH_Gayle_House_Ext.png"
+    },
+    "Frita": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/38/NH_Frita_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/48/NH_Frita_House_Ext.png"
+    },
+    "Friga": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/27/NH_Friga_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6d/NH_Friga_House_Ext.png"
+    },
+    "Gabi": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/92/NH_Gabi_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/2c/NH_Gabi_House_Ext.png"
+    },
+    "Frobert": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/47/NH_Frobert_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b5/NH_Frobert_House_Ext.png"
+    },
+    "Genji": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e2/NH_Genji_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d4/NH_Genji_House_Ext.png"
+    },
+    "Gloria": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/52/NH_Gloria_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/89/NH_Gloria_House_Ext.png"
+    },
+    "Goldie": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/cb/NH_Goldie_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/47/NH_Goldie_House_Ext.png"
+    },
+    "Gladys": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/2a/NH_Gladys_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/82/NH_Gladys_House_Ext.png"
+    },
+    "Gigi": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6a/NH_Gigi_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/4e/NH_Gigi_House_Ext.png"
+    },
+    "Gonzo": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/1/15/NH_Gonzo_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/cc/NH_Gonzo_House_Ext.png"
+    },
+    "Goose": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/7a/NH_Goose_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/5b/NH_Goose_House_Ext.png"
+    },
+    "Graham": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b5/NH_Graham_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/26/NH_Graham_House_Ext.png"
+    },
+    "Gwen": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/57/NH_Gwen_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/5e/NH_Gwen_House_Ext.png"
+    },
+    "Greta": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/4e/NH_Greta_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d2/NH_Greta_House_Ext.png"
+    },
+    "Groucho": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f1/NH_Groucho_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9f/NH_Groucho_House_Ext.png"
+    },
+    "Grizzly": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/62/NH_Grizzly_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/78/NH_Grizzly_House_Ext.png"
+    },
+    "Hans": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/dc/NH_Hans_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/55/NH_Hans_House_Ext.png"
+    },
+    "Hamlet": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/05/NH_Hamlet_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/bd/NH_Hamlet_House_Ext.png"
+    },
+    "Gruff": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/dd/NH_Gruff_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/ea/NH_Gruff_House_Ext.png"
+    },
+    "Hamphrey": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/1/1b/NH_Hamphrey_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e3/NH_Hamphrey_House_Ext.png"
+    },
+    "Hazel": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/ed/NH_Hazel_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e2/NH_Hazel_House_Ext.png"
+    },
+    "Henry": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/ac/NH_Henry_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fa/NH_Henry_House_Ext.png"
+    },
+    "Harry": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/1/1f/NH_Harry_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8a/NH_Harry_House_Ext.png"
+    },
+    "Hippeux": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8e/NH_Hippeux_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3e/NH_Hippeux_House_Ext.png"
+    },
+    "Hornsby": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/98/NH_Hornsby_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/59/NH_Hornsby_House_Ext.png"
+    },
+    "Hopkins": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/48/NH_Hopkins_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/42/NH_Hopkins_House_Ext.png"
+    },
+    "Huck": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/ae/NH_Huck_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/2a/NH_Huck_House_Ext.png"
+    },
+    "Hopper": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/dc/NH_Hopper_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/5d/NH_Hopper_House_Ext.png"
+    },
+    "Hugh": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/74/NH_Hugh_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/85/NH_Hugh_House_Ext.png"
+    },
+    "Iggly": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6f/NH_Iggly_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c3/NH_Iggly_House_Ext.png"
+    },
+    "Ike": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e3/NH_Ike_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f8/NH_Ike_House_Ext.png"
+    },
+    "Jacques": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/87/NH_Jacques_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/69/NH_Jacques_House_Ext.png"
+    },
+    "Jambette": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/ed/NH_Jambette_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/88/NH_Jambette_House_Ext.png"
+    },
+    "Jacob": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/eb/NH_Jacob_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/67/NH_Jacob_House_Ext.png"
+    },
+    "Jeremiah": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/97/GC_Jeremiah_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3c/NH_Jeremiah_House_Ext.png"
+    },
+    "Ione": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c7/NH_Ione_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/90/NH_Ione_House_Ext.jpg"
+    },
+    "Jay": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/bf/NH_Jay_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fc/NH_Jay_House_Ext.png"
+    },
+    "Jitters": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b7/NH_Jitters_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/85/NH_Jitters_House_Ext.png"
+    },
+    "Judy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/22/NH_Judy_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/cb/NH_Judy_House_Ext.png"
+    },
+    "Joey": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b2/NH_Joey_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/68/NH_Joey_House_Ext.png"
+    },
+    "Julia": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8a/NH_Julia_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e9/NH_Julia_House_Ext.png"
+    },
+    "June": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b2/NH_June_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/66/NH_June_House_Ext.png"
+    },
+    "Julian": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a4/NH_Julian_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b4/NH_Julian_House_Ext.png"
+    },
+    "Kabuki": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/51/NH_Kabuki_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9e/NH_Kabuki_House_Ext.png"
+    },
+    "Katt": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f6/NH_Katt_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d0/NH_Katt_House_Ext.png"
+    },
+    "Keaton": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d2/NH_Keaton_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6a/NH_Keaton_House_Ext.png"
+    },
+    "Ketchup": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/28/NH_Ketchup_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/66/NH_Ketchup_House_Ext.png"
+    },
+    "Ken": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3d/NH_Ken_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/1f/NH_Ken_House_Ext.png"
+    },
+    "Kevin": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e3/NH_Kevin_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a7/NH_Kevin_House_Ext.png"
+    },
+    "Kiki": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a8/NH_Kiki_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f3/NH_Kiki_House_Ext.png"
+    },
+    "Kidd": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/63/NH_Kidd_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/4f/NH_Kidd_House_Ext.png"
+    },
+    "Kitty": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3e/NH_Kitty_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/77/NH_Kitty_House_Ext.png"
+    },
+    "Kitt": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/ad/NH_Kitt_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/58/NH_Kitt_House_Ext.png"
+    },
+    "Klaus": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/94/NH_Klaus_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/18/NH_Klaus_House_Ext.png"
+    },
+    "Kyle": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a2/NH_Kyle_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c5/NH_Kyle_House_Ext.png"
+    },
+    "Leonardo": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3d/NH_Leonardo_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9a/NH_Leonardo_House_Ext.png"
+    },
+    "Knox": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/40/NH_Knox_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c0/NH_Knox_House_Ext.png"
+    },
+    "Kody": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3a/NH_Kody_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/1e/NH_Kody_House_Ext.png"
+    },
+    "Lily": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/2f/House_of_Lily_AC_GCN.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6b/NH_Lily_House_Ext.png"
+    },
+    "Limberg": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/78/NH_Limberg_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/07/NH_Limberg_House_Ext.png"
+    },
+    "Leopold": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/2e/NH_Leopold_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fb/NH_Leopold_House_Ext.png"
+    },
+    "Lionel": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/ec/NH_Lionel_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/88/NH_Lionel_House_Ext.png"
+    },
+    "Lobo": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/91/NH_Lobo_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9b/NH_Lobo_House_Ext.png"
+    },
+    "Lolly": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c6/NH_Lolly_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e9/NH_Lolly_House_Ext.png"
+    },
+    "Louie": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/ca/NH_Louie_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8e/NH_Louie_House_Ext.png"
+    },
+    "Lucha": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9a/NH_Lucha_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/84/NH_Lucha_House_Ext.png"
+    },
+    "Lopez": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/1/10/NL_Lopez_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8c/NH_Lopez_House_Ext.png"
+    },
+    "Lucy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a2/NH_Lucy_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b8/NH_Lucy_House_Ext.png"
+    },
+    "Lucky": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/76/NH_Lucky_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/a/ab/NH_Lucky_House_Ext.png"
+    },
+    "Mac": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/25/NH_Mac_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/69/NH_Mac_House_Ext.png"
+    },
+    "Lyman": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c5/NH_Lyman_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b8/NH_Lyman_House_Ext.png"
+    },
+    "Maddie": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3d/NH_Maddie_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/48/NH_Maddie_House_Ext.png"
+    },
+    "Maple": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/63/NH_Maple_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a0/NH_Maple_House_Ext.png"
+    },
+    "Mallary": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/ce/GC_Mallary_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/dd/NH_Mallary_House_Ext.png"
+    },
+    "Maelle": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a2/NH_Maelle_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b8/NH_Maelle_House_Ext.png"
+    },
+    "Marcie": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/64/NH_Marcie_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/08/NH_Marcie_House_Ext.png"
+    },
+    "Margie": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/1/18/NH_Margie_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/28/NH_Margie_House_Ext.png"
+    },
+    "Marcel": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/ea/NH_Marcel_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/ba/NH_Marcel_House_Ext.png"
+    },
+    "Marina": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/69/NH_Marina_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f9/NH_Marina_House_Ext.png"
+    },
+    "Marlo": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6c/House_of_Marlo_NH.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/ff/NH_Marlo_House_Ext.jpg"
+    },
+    "Marty": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f9/NH_Marty_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/57/NH_Marty_House_Ext.png"
+    },
+    "Mathilda": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/1/13/1200px-House_of_Mathilda_NH.jpeg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/17/NH_Mathilda_House_Ext.png"
+    },
+    "Marshal": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/66/NH_Marshal_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/0f/NH_Marshal_House_Ext.png"
+    },
+    "Megan": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/cb/NH_Megan_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/5c/NH_Megan_House_Ext.png"
+    },
+    "Melba": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/42/NH_Melba_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e7/NH_Melba_House_Ext.png"
+    },
+    "Merengue": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/00/NH_Merengue_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/84/NH_Merengue_House_Ext.png"
+    },
+    "Merry": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/53/NH_Merry_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/bf/NH_Merry_House_Ext.png"
+    },
+    "Midge": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/78/NH_Midge_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/7a/NH_Midge_House_Ext.png"
+    },
+    "Miranda": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f5/NH_Miranda_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/70/NH_Miranda_House_Ext.png"
+    },
+    "Mira": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d6/NH_Mira_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/92/NH_Mira_House_Ext.png"
+    },
+    "Mitzi": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e7/NH_Mitzi_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b1/NH_Mitzi_House_Ext.png"
+    },
+    "Moe": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c3/NH_Moe_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/52/NH_Moe_House_Ext.png"
+    },
+    "Monique": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/45/NH_Monique_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/88/NH_Monique_House_Ext.png"
+    },
+    "Mint": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/1/14/NH_Mint_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/25/NH_Mint_House_Ext.png"
+    },
+    "Moose": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/ce/NH_Moose_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/14/NH_Moose_House_Ext.png"
+    },
+    "Monty": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6e/NH_Monty_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/76/NH_Monty_House_Ext.png"
+    },
+    "Muffy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/74/NH_Muffy_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6e/NH_Muffy_House_Ext.png"
+    },
+    "Mott": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/df/NH_Mott_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/52/NH_Mott_House_Ext.png"
+    },
+    "Molly": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/5a/NH_Molly_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fe/NH_Molly_House_Ext.png"
+    },
+    "Murphy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f9/NH_Murphy_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/cc/NH_Murphy_House_Ext.png"
+    },
+    "Nana": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/26/NH_Nana_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/ee/NH_Nana_House_Ext.png"
+    },
+    "Nan": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/37/NH_Nan_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fb/NH_Nan_House_Ext.png"
+    },
+    "Naomi": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/07/NH_Naomi_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/2a/NH_Naomi_House_Ext.png"
+    },
+    "Nibbles": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/0b/NH_Nibbles_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/99/NH_Nibbles_House_Ext.png"
+    },
+    "Nate": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/5f/NH_Nate_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/0e/NH_Nate_House_Ext.png"
+    },
+    "Norma": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3d/NH_Norma_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/17/NH_Norma_House_Ext.png"
+    },
+    "O'Hare": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/54/NH_O%27Hare_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d5/NH_O%27Hare_House_Ext.png"
+    },
+    "Octavian": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/99/NH_Octavian_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/56/NH_Octavian_House_Ext.png"
+    },
+    "Olaf": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d4/NH_Olaf_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/ef/NH_Olaf_House_Ext.png"
+    },
+    "Olive": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d6/NH_Olive_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/75/NH_Olive_House_Ext.png"
+    },
+    "Olivia": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/28/NH_Olivia_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c6/NH_Olivia_House_Ext.png"
+    },
+    "Ozzie": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fa/NH_Ozzie_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/97/NH_Ozzie_House_Ext.png"
+    },
+    "Pancetti": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/67/NH_Pancetti_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/96/NH_Pancetti_House_Ext.png"
+    },
+    "Pango": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a3/NH_Pango_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e0/NH_Pango_House_Ext.png"
+    },
+    "Paolo": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/49/NH_Paolo_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/4a/NH_Paolo_House_Ext.png"
+    },
+    "Papi": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/ac/NH_Papi_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/75/NH_Papi_House_Ext.png"
+    },
+    "Opal": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/02/WW_Opal_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c2/NH_Opal_House_Ext.png"
+    },
+    "Pashmina": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/89/NH_Pashmina_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/df/NH_Pashmina_House_Ext.png"
+    },
+    "Pate": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/cd/GC_Pate_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/1d/NH_Pate_House_Ext.png"
+    },
+    "Paula": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/06/NH_Paula_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/78/NH_Paula_House_Ext.png"
+    },
+    "Peaches": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/7e/NH_Peaches_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8c/NH_Peaches_House_Ext.png"
+    },
+    "Patty": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b7/NH_Patty_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/57/NH_Patty_House_Ext.png"
+    },
+    "Pecan": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/29/NH_Pecan_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/5e/NH_Pecan_House_Ext.png"
+    },
+    "Peanut": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6c/WW_Peanut_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9c/NH_Peanut_House_Ext.png"
+    },
+    "Peewee": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e2/NH_Pewee_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/61/NH_Peewee_House_Ext.png"
+    },
+    "Peck": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/36/NH_Peck_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/98/NH_Peck_House_Ext.png"
+    },
+    "Pekoe": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/27/NH_Pekoe_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/1f/NH_Pekoe_House_Ext.png"
+    },
+    "Peggy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/20/NH_Peggy_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/39/NH_Peggy_House_Ext.png"
+    },
+    "Penelope": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/67/NH_Penelope_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b8/NH_Penelope_House_Ext.png"
+    },
+    "Petri": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/5d/House_of_Petri_NH.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a8/NH_Petri_House_Ext.jpg"
+    },
+    "Phoebe": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/28/NH_Phoebe_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/81/NH_Phoebe_House_Ext.png"
+    },
+    "Pietro": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/23/NH_Pietro_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/ed/NH_Pietro_House_Ext.png"
+    },
+    "Pinky": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9e/NH_Pinky_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/63/NH_Pinky_House_Ext.png"
+    },
+    "Pierce": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b5/NH_Pierce_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/89/NH_Pierce_House_Ext.png"
+    },
+    "Piper": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/bc/NH_Piper_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8c/NH_Piper_House_Ext.png"
+    },
+    "Pippy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/65/NH_Pippy_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/13/NH_Pippy_House_Ext.png"
+    },
+    "Plucky": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/60/NH_Plucky_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e5/NH_Plucky_House_Ext.png"
+    },
+    "Phil": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e6/NH_Phil_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3b/NH_Phil_House_Ext.png"
+    },
+    "Pompom": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e2/GC_Pompom_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b0/NH_Pompom_House_Ext.png"
+    },
+    "Portia": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/61/CF_Portia_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/63/NH_Portia_House_Ext.png"
+    },
+    "Poncho": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/1/1f/NH_Poncho_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e4/NH_Poncho_House_Ext.png"
+    },
+    "Puck": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/7e/NH_Puck_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fc/NH_Puck_House_Ext.png"
+    },
+    "Punchy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e2/NH_Punchy_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8e/NH_Punchy_House_Ext.png"
+    },
+    "Pudge": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a7/NH_Pudge_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/79/NH_Pudge_House_Ext.png"
+    },
+    "Puddles": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e3/AF_Puddles_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/28/NH_Puddles_House_Ext.png"
+    },
+    "Poppy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a4/NH_Poppy_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/a/ab/NH_Poppy_House_Ext.png"
+    },
+    "Prince": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6d/NH_Prince_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/90/NH_Prince_House_Ext.png"
+    },
+    "Queenie": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/50/NH_Queenie_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e8/NH_Queenie_House_Ext.png"
+    },
+    "Raddle": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/83/NH_Raddle_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/11/NH_Raddle_House_Ext.png"
+    },
+    "Quinn": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/72/House_of_Quinn_NH.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/ec/NH_Quinn_House_Ext.jpg"
+    },
+    "Rasher": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/25/NH_Rasher_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/40/NH_Rasher_House_Ext.png"
+    },
+    "Purrl": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/aa/GC_Purrl_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/35/NH_Purrl_House_Ext.png"
+    },
+    "Raymond": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/ce/NH_Raymond_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c2/NH_Raymond_House_Ext.png"
+    },
+    "Reneigh": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/1/1d/NH_Reneigh_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/56/NH_Reneigh_House_Ext.png"
+    },
+    "Rex": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/1/18/NH_Rex_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e6/NH_Rex_House_Ext.png"
+    },
+    "Ricky": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/92/NH_Ricky_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/64/NH_Ricky_House_Ext.png"
+    },
+    "Rhonda": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/ef/NH_Rhonda_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/96/NH_Rhonda_House_Ext.png"
+    },
+    "Rilla": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/af/NL_Rilla_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/80/NH_Rilla_House_Ext.png"
+    },
+    "Rizzo": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/08/NH_Rizzo_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/78/NH_Rizzo_House_Ext.png"
+    },
+    "Rio": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c6/NH_Rio_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/54/NH_Rio_House_Ext.jpg"
+    },
+    "Ribbot": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/91/NH_Ribbot_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/39/NH_Ribbot_House_Ext.png"
+    },
+    "Quillson": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e6/NH_Quillson_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6f/NH_Quillson_House_Ext.png"
+    },
+    "Rocket": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/49/NH_Rocket_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/22/NH_Rocket_House_Ext.png"
+    },
+    "Robin": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/0c/NH_Robin_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6b/NH_Robin_House_Ext.png"
+    },
+    "Rodney": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/1/14/NH_Rodney_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/78/NH_Rodney_House_Ext.png"
+    },
+    "Roald": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d9/NH_Roald_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c9/NH_Roald_House_Ext.png"
+    },
+    "Rocco": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/48/NH_Rocco_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fc/NH_Rocco_House_Ext.png"
+    },
+    "Rodeo": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/ac/NH_Rodeo_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c8/NH_Rodeo_House_Ext.png"
+    },
+    "Rod": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/75/NH_Rod_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/eb/NH_Rod_House_Ext.png"
+    },
+    "Rooney": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/23/NH_Rooney_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b6/NH_Rooney_House_Ext.png"
+    },
+    "Rory": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b2/NH_Rory_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/4b/NH_Rory_House_Ext.png"
+    },
+    "Roscoe": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/0a/NH_Roscoe_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/70/NH_Roscoe_House_Ext.png"
+    },
+    "Ruby": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/48/NH_Ruby_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/11/NH_Ruby_House_Ext.png"
+    },
+    "Roswell": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/ce/NH_Roswell_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/ce/NH_Roswell_House.jpg"
+    },
+    "Rosie": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d7/NH_Rosie_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/54/NH_Rosie_House_Ext.png"
+    },
+    "Rowan": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/61/NL_Rowan_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3c/NH_Rowan_House_Ext.png"
+    },
+    "Rudy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c3/NH_Rudy_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9a/NH_Rudy_House_Ext.png"
+    },
+    "Rolf": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a1/NH_Rolf_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b6/NH_Rolf_House_Ext.png"
+    },
+    "Sandy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/37/NH_Sandy_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3b/NH_Sandy_House_Ext.png"
+    },
+    "Sally": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9f/NH_Sally_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/6f/NH_Sally_House_Ext.png"
+    },
+    "Samson": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/99/NH_Samson_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/ca/NH_Samson_House_Ext.png"
+    },
+    "Sasha": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b7/NH_Sasha_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/87/NH_Sasha_House_Ext.png"
+    },
+    "Savannah": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/ce/NH_Savannah_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/dd/NH_Savannah_House_Ext.png"
+    },
+    "Scoot": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/af/NH_Scoot_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9e/NH_Scoot_House_Ext.png"
+    },
+    "Shep": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/39/NL_Shep_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f0/NH_Shep_House_Ext.png"
+    },
+    "Shino": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3e/NH_Shino_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/49/NH_Shino_House_Ext.jpg"
+    },
+    "Shari": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8d/NL_Shari_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a8/NH_Shari_House_Ext.png"
+    },
+    "Sherb": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/5c/NH_Sherb_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d4/NH_Sherb_House_Ext.png"
+    },
+    "Sheldon": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/81/NH_Sheldon_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/07/NH_Sheldon_House_Ext.png"
+    },
+    "Skye": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/76/NH_Skye_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/50/NH_Skye_House_Ext.png"
+    },
+    "Simon": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e8/NH_Simon_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b5/NH_Simon_House_Ext.png"
+    },
+    "Sly": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/52/NH_Sly_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/68/NH_Sly_House_Ext.png"
+    },
+    "Snake": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/5d/NH_Snake_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/72/NH_Snake_House_Ext.png"
+    },
+    "Soleil": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/62/NH_Soleil_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fd/NH_Soleil_House_Ext.png"
+    },
+    "Sparro": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/5/51/NH_Sparro_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/00/NH_Sparro_House_Ext.png"
+    },
+    "Snooty": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/66/NH_Snooty_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c5/NH_Snooty_House_Ext.png"
+    },
+    "Spike": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fa/NH_Spike_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/70/NH_Spike_House_Ext.png"
+    },
+    "Sprinkle": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/0b/NH_Sprinkle_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/1f/NH_Sprinkle_House_Ext.png"
+    },
+    "Spork": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9e/NH_Spork_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c4/NH_Spork_House_Ext.png"
+    },
+    "Sprocket": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/7f/NH_Sprocket_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/59/NH_Sprocket_House_Ext.png"
+    },
+    "Static": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/af/NH_Static_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/4a/NH_Static_House_Ext.png"
+    },
+    "Stella": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/0d/NH_Stella_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d3/NH_Stella_House_Ext.png"
+    },
+    "Sterling": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/7a/NH_Sterling_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fc/NH_Sterling_House_Ext.png"
+    },
+    "Stinky": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/47/NH_Stinky_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/bd/NH_Stinky_House_Ext.png"
+    },
+    "Stitches": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e3/NH_Stitches_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a1/NH_Stitches_House_Ext.png"
+    },
+    "Stu": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f7/NH_Stu_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/71/NH_Stu_House_Ext.png"
+    },
+    "Sylvana": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/83/NH_Sylvana_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/4b/NH_Sylvana_House_Ext.png"
+    },
+    "Sydney": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8e/NH_Sydney_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/8/81/NH_Sydney_House_Ext.png"
+    },
+    "Sylvia": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/33/NH_Sylvia_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fd/NH_Sylvia_House_Ext.png"
+    },
+    "T-Bone": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/87/GC_T-Bone_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/64/NH_T-Bone_House_Ext.png"
+    },
+    "Tammi": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/37/NH_Tammi_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/57/NH_Tammi_House_Ext.png"
+    },
+    "Tad": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/44/NL_Tad_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/ed/NH_Tad_House_Ext.png"
+    },
+    "Tammy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/02/NH_Tammy_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b3/NH_Tammy_House_Ext.png"
+    },
+    "Tangy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/35/NH_Tangy_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/7a/NH_Tangy_House_Ext.png"
+    },
+    "Tabby": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/b7/AF_Tabby_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/b/be/NH_Tabby_House_Ext.png"
+    },
+    "Tank": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/1/1c/NH_Tank_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/7c/NH_Tank_House_Ext.png"
+    },
+    "Tasha": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/4d/NH_Tasha_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f1/NH_Tasha_House_Ext.png"
+    },
+    "Teddy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/00/NH_Teddy_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/2b/NH_Teddy_House_Ext.png"
+    },
+    "Tex": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9d/NH_Tex_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/2d/NH_Tex_House_Ext.png"
+    },
+    "Tiansheng": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/27/NH_Tiansheng_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/05/NH_Tiansheng_House_Ext.png"
+    },
+    "Tipper": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f9/NH_Tipper_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a3/NH_Tipper_House_Ext.png"
+    },
+    "Tia": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/b/bd/NH_Tia_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3c/NH_Tia_House_Ext.png"
+    },
+    "Tiffany": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e6/NH_Tiffany_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/38/NH_Tiffany_House_Ext.png"
+    },
+    "Timbra": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f0/NH_Timbra_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d1/NH_Timbra_House_Ext.png"
+    },
+    "Toby": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/45/NL_Toby_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e6/NH_Toby_House_Ext.png"
+    },
+    "Tom": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9c/NH_Tom_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/9a/NH_Tom_House_Ext.png"
+    },
+    "Truffles": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fd/NH_Truffles_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/5f/NH_Truffles_House_Ext.png"
+    },
+    "Twiggy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/92/NH_Twiggy_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fd/NH_Twiggy_House_Ext.png"
+    },
+    "Ursala": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/48/NH_Ursala_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/4d/NH_Ursala_House_Ext.png"
+    },
+    "Tucker": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c0/NH_Tucker_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/cb/NH_Tucker_House_Ext.png"
+    },
+    "Tybalt": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fa/NH_Tybalt_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/38/NH_Tybalt_House_Ext.png"
+    },
+    "Tutu": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/7e/GC_Tutu_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3b/NH_Tutu_House_Ext.png"
+    },
+    "Velma": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d0/NH_Velma_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/e/ee/NH_Velma_House_Ext.png"
+    },
+    "Vesta": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/0/0e/NH_Vesta_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/f/ff/NH_Vesta_House_Ext.png"
+    },
+    "Vladimir": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/3/3b/NH_Vladimir_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/01/NH_Vladimir_House_Ext.png"
+    },
+    "Wade": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f9/NH_Wade_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/63/NH_Wade_House_Ext.png"
+    },
+    "Vivian": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d8/NH_Vivian_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d9/NH_Vivian_House_Ext.png"
+    },
+    "Walker": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/20/NH_Walker_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/4/46/NH_Walker_House_Ext.png"
+    },
+    "Vic": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/4/4e/NH_Vic_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/d/d3/NH_Vic_House_Ext.png"
+    },
+    "Walt": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/8/8a/NH_Walt_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/18/NH_Walt_House_Ext.png"
+    },
+    "Wart Jr.": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/7/73/NH_Wart_Jr._House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/0/09/NH_Wart_Jr._House_Ext.png"
+    },
+    "Wendy": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/2a/CF_Wendy_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/9/92/NH_Wendy_House_Ext.png"
+    },
+    "Whitney": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/a/a7/NH_Whitney_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/61/NH_Whitney_House_Ext.png"
+    },
+    "Willow": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/68/NH_Willow_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/6/61/NH_Willow_House_Ext.png"
+    },
+    "Yuka": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/9/96/NH_Yuka_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/5/5b/NH_Yuka_House_Ext.png"
+    },
+    "Winnie": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/f7/NL_Winnie_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/7a/NH_Winnie_House_Ext.png"
+    },
+    "Weber": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/22/NH_Weber_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/2/2a/NH_Weber_House_Ext.png"
+    },
+    "Zell": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/2/2a/NH_Zell_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/c/c5/NH_Zell_House_Ext.png"
+    },
+    "Wolfgang": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/6/65/NH_Wolfgang_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/3/30/NH_Wolfgang_House_Ext.png"
+    },
+    "Zucker": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/e/e4/NH_Zucker_House.jpg",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/7/72/NH_Zucker_House_Ext.png"
+    },
+    "Zoe": {
+      "interior": "https://static.wikia.nocookie.net/animalcrossing/images/f/fa/NH_Zoe_House.png",
+      "exterior": "https://static.wikia.nocookie.net/animalcrossing/images/1/1d/NH_Zoe_House_Ext.png"
+    }
+  }
+}

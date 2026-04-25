@@ -3,6 +3,7 @@
 const DATA = {
   villagersUrl: "../files/villagers.json",
   difficultyUrl: "../files/gender_difficulty.json",
+  housesUrl: "../files/houses.json",
 };
 
 function el(id) {
@@ -70,6 +71,33 @@ async function loadDatabase() {
     }))
     .filter((v) => v.name);
 
+  // Houses map: name -> { interior, exterior }
+  let housesMap = new Map();
+  try {
+    const housesRes = await fetch(DATA.housesUrl, { cache: "no-store" }).catch(() => null);
+    if (housesRes && housesRes.ok) {
+      const housesJson = await housesRes.json();
+      const housesObj = housesJson?.houses && typeof housesJson.houses === "object" ? housesJson.houses : {};
+      housesMap = new Map(
+        Object.entries(housesObj).map(([name, v]) => [
+          String(name).trim(),
+          {
+            interior: String(v?.interior ?? "").trim(),
+            exterior: String(v?.exterior ?? "").trim(),
+          },
+        ]),
+      );
+    }
+  } catch {
+    housesMap = new Map();
+  }
+
+  for (const v of villagers) {
+    const h = housesMap.get(v.name);
+    v.house_interior_url = h?.interior || "";
+    v.house_exterior_url = h?.exterior || "";
+  }
+
   let diffMap = new Map();
   try {
     if (diffRes && diffRes.ok) {
@@ -116,7 +144,16 @@ function normalizeQuery(q) {
 
 function villagerMatchesQuery(v, q) {
   if (!q) return true;
-  const hay = [v.name, v.species, v.personality, v.hobby, v.birthday, v.gender]
+  const hay = [
+    v.name,
+    v.species,
+    v.personality,
+    v.hobby,
+    v.birthday,
+    v.gender,
+    v.house_interior_url,
+    v.house_exterior_url,
+  ]
     .filter(Boolean)
     .join(" ")
     .toLowerCase();
@@ -194,6 +231,40 @@ function renderIcons({ villagers }) {
         v,
         imgUrl: v.image_icon_url,
         url: v.image_icon_url,
+      }),
+    );
+  }
+  list.appendChild(frag);
+}
+
+function renderInteriors({ villagers }) {
+  const list = el("interiorsList");
+  clearChildren(list);
+  const frag = document.createDocumentFragment();
+  for (const v of villagers) {
+    const url = v.house_interior_url || "";
+    frag.appendChild(
+      buildUrlRow({
+        v,
+        imgUrl: url,
+        url,
+      }),
+    );
+  }
+  list.appendChild(frag);
+}
+
+function renderExteriors({ villagers }) {
+  const list = el("exteriorsList");
+  clearChildren(list);
+  const frag = document.createDocumentFragment();
+  for (const v of villagers) {
+    const url = v.house_exterior_url || "";
+    frag.appendChild(
+      buildUrlRow({
+        v,
+        imgUrl: url,
+        url,
       }),
     );
   }
@@ -366,6 +437,8 @@ async function boot() {
     if (activeTab === "characters") renderCharacters({ villagers: v });
     else if (activeTab === "images") renderImages({ villagers: v });
     else if (activeTab === "icons") renderIcons({ villagers: v });
+    else if (activeTab === "interiors") renderInteriors({ villagers: v });
+    else if (activeTab === "exteriors") renderExteriors({ villagers: v });
     else if (activeTab === "gender") renderGenderList({ villagers: v, difficulty, onDirty: setDirty });
   }
 
@@ -383,6 +456,16 @@ async function boot() {
   el("tab-icons").addEventListener("click", () => {
     activeTab = "icons";
     setView("icons");
+    rerenderActive();
+  });
+  el("tab-interiors").addEventListener("click", () => {
+    activeTab = "interiors";
+    setView("interiors");
+    rerenderActive();
+  });
+  el("tab-exteriors").addEventListener("click", () => {
+    activeTab = "exteriors";
+    setView("exteriors");
     rerenderActive();
   });
   el("tab-gender").addEventListener("click", () => {
