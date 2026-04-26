@@ -469,6 +469,7 @@ img.qImg.silhouette.reveal {
   cursor: pointer;
   text-align: left;
   font-weight: 750;
+  position: relative;
 }
 
 .opt:hover {

@@ -32,12 +32,6 @@
         <button class="tabBtn" id="tab-icons" type="button" role="tab" aria-selected="false">
           Icons
         </button>
-        <button class="tabBtn" id="tab-interiors" type="button" role="tab" aria-selected="false">
-          Interiors
-        </button>
-        <button class="tabBtn" id="tab-exteriors" type="button" role="tab" aria-selected="false">
-          Exteriors
-        </button>
         <button class="tabBtn" id="tab-gender" type="button" role="tab" aria-selected="false">
           Gender
         </button>
@@ -69,50 +63,6 @@
           <div class="panelTitle">Image icon URL</div>
         </div>
         <div class="list" id="iconsList"></div>
-      </section>
-
-      <section class="panel" id="view-interiors" data-view="interiors" style="display: none">
-        <div class="panelTop">
-          <div class="panelTitle">House interiors</div>
-          <div class="panelActions">
-            <div class="dirty" id="housesDirtyBadge" style="display: none">unsaved</div>
-            <button class="primaryBtn" id="housesExportBtnA" type="button" style="display: none">Export houses.json</button>
-          </div>
-        </div>
-        <div class="list" id="interiorsList"></div>
-      </section>
-
-      <section class="panel" id="view-exteriors" data-view="exteriors" style="display: none">
-        <div class="panelTop">
-          <div class="panelTitle">House exteriors</div>
-          <div class="panelActions">
-            <div class="dirty" id="housesDirtyBadge2" style="display: none">unsaved</div>
-            <button class="primaryBtn" id="housesExportBtnB" type="button" style="display: none">Export houses.json</button>
-          </div>
-        </div>
-        <div class="list" id="exteriorsList"></div>
-      </section>
-
-      <section class="panel" id="view-house" data-view="house" style="display: none">
-        <div class="panelTop">
-          <div class="panelTitle" id="houseTitle">House</div>
-          <div class="panelActions">
-            <button class="btn" id="houseBack" type="button">Back</button>
-            <button class="primaryBtn" id="houseSave" type="button">Save</button>
-          </div>
-        </div>
-        <div class="houseGrid">
-          <div>
-            <div class="subTitle">Interior</div>
-            <img class="houseImg" id="houseInteriorImg" alt="" draggable="false" />
-            <input class="urlBox" id="houseInteriorUrl" type="text" placeholder="https://..." />
-          </div>
-          <div>
-            <div class="subTitle">Exterior</div>
-            <img class="houseImg" id="houseExteriorImg" alt="" draggable="false" />
-            <input class="urlBox" id="houseExteriorUrl" type="text" placeholder="https://..." />
-          </div>
-        </div>
       </section>
 
       <section class="panel" id="view-gender" data-view="gender" style="display: none">

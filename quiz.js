@@ -626,6 +626,8 @@ function renderQuestion({ q, index, total, state, onAnswer }) {
   el("qCount").textContent = `${index + 1}/${total}`;
   // per design: only show count
 
+  const metaEl = el("qMeta");
+
   // media
   const img = el("qImg");
   const mediaEl = el("qMedia");
@@ -647,7 +649,8 @@ function renderQuestion({ q, index, total, state, onAnswer }) {
   img.onerror = () => mediaEl.classList.remove("loading");
 
   // per design: no meta line in quiz
-  el("qMeta").textContent = "";
+  metaEl.textContent = "";
+  metaEl.style.display = "none";
 
   const optionsEl = el("qOptions");
   clearChildren(optionsEl);

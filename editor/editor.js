@@ -3,7 +3,6 @@
 const DATA = {
   villagersUrl: "../files/villagers.json",
   difficultyUrl: "../files/gender_difficulty.json",
-  housesUrl: "../files/houses.json",
 };
 
 function el(id) {
@@ -76,35 +75,6 @@ async function loadDatabase() {
     }))
     .filter((v) => v.name);
 
-  // Houses map: name -> { interior, exterior }
-  let housesMap = new Map();
-  try {
-    const housesRes = await fetch(DATA.housesUrl, { cache: "no-store" }).catch(() => null);
-    if (housesRes && housesRes.ok) {
-      const housesJson = await housesRes.json();
-      const housesObj = housesJson?.houses && typeof housesJson.houses === "object" ? housesJson.houses : {};
-      housesMap = new Map(
-        Object.entries(housesObj).map(([name, v]) => [
-          String(name).trim(),
-          {
-            interior: String(v?.interior ?? "").trim(),
-            exterior: String(v?.exterior ?? "").trim(),
-            score: Number(v?.score ?? NaN),
-          },
-        ]),
-      );
-    }
-  } catch {
-    housesMap = new Map();
-  }
-
-  for (const v of villagers) {
-    const h = housesMap.get(v.name);
-    v.house_interior_url = h?.interior || "";
-    v.house_exterior_url = h?.exterior || "";
-    v.house_score = Number.isFinite(h?.score) ? h.score : null;
-  }
-
   let diffMap = new Map();
   try {
     if (diffRes && diffRes.ok) {
@@ -158,8 +128,6 @@ function villagerMatchesQuery(v, q) {
     v.hobby,
     v.birthday,
     v.gender,
-    v.house_interior_url,
-    v.house_exterior_url,
   ]
     .filter(Boolean)
     .join(" ")
@@ -253,65 +221,6 @@ function renderIcons({ villagers }) {
     );
   }
   list.appendChild(frag);
-}
-
-function renderInteriors({ villagers }) {
-  const list = el("interiorsList");
-  clearChildren(list);
-  const frag = document.createDocumentFragment();
-  for (const v of villagers) {
-    const url = v.house_interior_url || "";
-    frag.appendChild(
-      buildUrlRow({
-        v,
-        imgUrl: url,
-        url,
-        onClick: v._openHouseEditor || null,
-      }),
-    );
-  }
-  list.appendChild(frag);
-}
-
-function renderExteriors({ villagers }) {
-  const list = el("exteriorsList");
-  clearChildren(list);
-  const frag = document.createDocumentFragment();
-  for (const v of villagers) {
-    const url = v.house_exterior_url || "";
-    frag.appendChild(
-      buildUrlRow({
-        v,
-        imgUrl: url,
-        url,
-        onClick: v._openHouseEditor || null,
-      }),
-    );
-  }
-  list.appendChild(frag);
-}
-
-function buildHousesExportObject({ villagers }) {
-  const houses = {};
-  let count = 0;
-  for (const v of villagers) {
-    const interior = String(v.house_interior_url || "").trim();
-    const exterior = String(v.house_exterior_url || "").trim();
-    const score = Number.isFinite(v.house_score) ? Number(v.house_score) : null;
-    if (!interior && !exterior && score === null) continue;
-    const row = { interior, exterior };
-    if (score !== null) row.score = score;
-    houses[v.name] = row;
-    count += 1;
-  }
-  return {
-    houses,
-    meta: {
-      generated_at: nowIso(),
-      count,
-      missing: 0,
-    },
-  };
 }
 
 function buildExportObject({ villagers, difficulty }) {
@@ -469,71 +378,6 @@ async function boot() {
   let query = "";
   const searchBox = el("searchBox");
 
-  // House editing state
-  let housesDirty = false;
-  const housesDirtyBadgeA = el("housesDirtyBadge");
-  const housesDirtyBadgeB = el("housesDirtyBadge2");
-  const housesExportBtnA = el("housesExportBtnA");
-  const housesExportBtnB = el("housesExportBtnB");
-
-  const houseTitle = el("houseTitle");
-  const houseInteriorImg = el("houseInteriorImg");
-  const houseExteriorImg = el("houseExteriorImg");
-  const houseInteriorUrl = el("houseInteriorUrl");
-  const houseExteriorUrl = el("houseExteriorUrl");
-  const houseBackBtn = el("houseBack");
-  const houseSaveBtn = el("houseSave");
-
-  let houseEditingName = "";
-  let houseReturnTab = "interiors";
-
-  function setHousesDirty(v) {
-    housesDirty = !!v;
-    const show = housesDirty ? "" : "none";
-    housesDirtyBadgeA.style.display = show;
-    housesDirtyBadgeB.style.display = show;
-    housesExportBtnA.style.display = show;
-    housesExportBtnB.style.display = show;
-  }
-
-  function openHouseEditor(v, returnTab) {
-    houseEditingName = v.name;
-    houseReturnTab = returnTab || activeTab || "interiors";
-    houseTitle.textContent = `House — ${v.name}`;
-
-    houseInteriorUrl.value = v.house_interior_url || "";
-    houseExteriorUrl.value = v.house_exterior_url || "";
-
-    houseInteriorImg.alt = `${v.name} interior`;
-    houseExteriorImg.alt = `${v.name} exterior`;
-    houseInteriorImg.src = v.house_interior_url || "";
-    houseExteriorImg.src = v.house_exterior_url || "";
-
-    setView("house");
-    // keep tab selection visually stable: setView already changes tab aria-selected; force none selected
-    for (const btn of document.querySelectorAll("[role=tab]")) btn.setAttribute("aria-selected", "false");
-  }
-
-  function applyHouseDraftToImages() {
-    houseInteriorImg.src = String(houseInteriorUrl.value || "").trim();
-    houseExteriorImg.src = String(houseExteriorUrl.value || "").trim();
-  }
-
-  function saveHouseEdits() {
-    const name = houseEditingName;
-    if (!name) return;
-    const v = villagersAll.find((x) => x.name === name);
-    if (!v) return;
-
-    const interior = String(houseInteriorUrl.value || "").trim();
-    const exterior = String(houseExteriorUrl.value || "").trim();
-    if (v.house_interior_url !== interior || v.house_exterior_url !== exterior) {
-      v.house_interior_url = interior;
-      v.house_exterior_url = exterior;
-      setHousesDirty(true);
-    }
-  }
-
   function filteredVillagers() {
     const q = normalizeQuery(query);
     if (!q) return villagersAll;
@@ -542,15 +386,9 @@ async function boot() {
 
   function rerenderActive() {
     const v = filteredVillagers();
-    // Attach editor opener as non-enumerable-ish property (runtime only)
-    for (const x of v) {
-      x._openHouseEditor = (vv) => openHouseEditor(vv, activeTab);
-    }
     if (activeTab === "characters") renderCharacters({ villagers: v });
     else if (activeTab === "images") renderImages({ villagers: v });
     else if (activeTab === "icons") renderIcons({ villagers: v });
-    else if (activeTab === "interiors") renderInteriors({ villagers: v });
-    else if (activeTab === "exteriors") renderExteriors({ villagers: v });
     else if (activeTab === "gender") renderGenderList({ villagers: v, difficulty, onDirty: setDirty });
   }
 
@@ -568,16 +406,6 @@ async function boot() {
   el("tab-icons").addEventListener("click", () => {
     activeTab = "icons";
     setView("icons");
-    rerenderActive();
-  });
-  el("tab-interiors").addEventListener("click", () => {
-    activeTab = "interiors";
-    setView("interiors");
-    rerenderActive();
-  });
-  el("tab-exteriors").addEventListener("click", () => {
-    activeTab = "exteriors";
-    setView("exteriors");
     rerenderActive();
   });
   el("tab-gender").addEventListener("click", () => {
@@ -601,32 +429,7 @@ async function boot() {
     rerenderActive();
   });
 
-  // House editor wiring
-  houseInteriorUrl.addEventListener("input", applyHouseDraftToImages);
-  houseExteriorUrl.addEventListener("input", applyHouseDraftToImages);
-  houseBackBtn.addEventListener("click", () => {
-    // do not auto-save on back
-    activeTab = houseReturnTab;
-    setView(houseReturnTab);
-    rerenderActive();
-  });
-  houseSaveBtn.addEventListener("click", () => {
-    saveHouseEdits();
-    activeTab = houseReturnTab;
-    setView(houseReturnTab);
-    rerenderActive();
-  });
-
-  const exportHouses = () => {
-    const obj = buildHousesExportObject({ villagers: villagersAll });
-    downloadJson("houses.json", obj);
-    setHousesDirty(false);
-  };
-  housesExportBtnA.addEventListener("click", exportHouses);
-  housesExportBtnB.addEventListener("click", exportHouses);
-
   // Initial render
-  setHousesDirty(false);
   rerenderActive();
 
   // Export
